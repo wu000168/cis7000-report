@@ -1,0 +1,114 @@
+\section{Discussion}
+
+Our study showed greater speed, ease, and readability of markup code with FFL for the second pair of tasks, which were complex editing tasks. Evidence from the study suggests FFL reduces viscosity, hard mental operations, and error proneness, while providing affordances promoting closeness of mapping and progressive evaluation. These findings suggest the promise of the ideas behind FFL, namely the separation of formula and augmentation markup, live feedback, and its approach to syntax. In this section, we examine the generalizability of the findings, and opportunities for advancing the research agenda of which FFL is a part.
+
+% We investigated how authoring tools can support authors in augmenting mathematical notations for better readability. We proposed and evaluated \emph{FFL} which was designed to simplify the process of styling and annotating the formula. Our lab study revealed that \emph{FFL} outperformed LaTeX in terms of speed, ease, and readability when it came to complex authoring tasks. Participants largely endorsed the usefulness of instant feedback, the separation of annotation code from formula code, as well as the improved ability to make cross-cutting changes.
+
+\subsection{Limitations}
+
+The generalizability of our findings is necessarily limited to tasks and the sample of participants we studied. When interpreting the results, it is useful to take stock of how authors of web-based math documents would differ from participants in the study.
+
+% First, we anticipate they would have greater familiarity with CSS, if they were authoring rich documents for the web, which might lead to greater comfort with FFL in the initial tasks.
+
+First, \zed{we anticipate that authors would have greater motivation to use the tools in naturalistic settings of use. If an author chose to use FFL, it would reflect a desire to make notation more approachable. We expect authors woul experiment more ambitiously with the tools compared to study participants who may not have had any prior experience explaining formulas in their writing.}
+
+% First, \zed{we anticipate many of these documents by such authors would be tutorials, many targeting novices, so} they would have greater motivation to use the tools, in the interest of making their texts more readable, which could lead to more ambitious experimentation with features.
+
+Second, they would likely be familiar with the formula markup, having written it themselves: for both the LaTeX and FFL conditions, this would likely lead to faster task completion times.
+
+Third, users ``in the wild'' would not have the luxury of having the tools demonstrated over a 10-minute tutorial, and therefore may have more difficulty in a walk-up-and-use experience.
+
+And finally, their FFL markup would have likely gotten longer if they were augmenting a full-length document. \zed{Due to constraints of the in-lab study, we were only able to measure the performance of FFL on mostly single-formula tasks. Although we included cross-cutting changes in all tasks and an open-ended task on a document excerpt as a more realistic scenario, }this means that participants in our study did not get a chance to encounter complexities that might arise with longer style specifications and that we did not observe all the difficulties to be seen with scoping augmentation.
+
+Of these limitations, the fourth and fifth are indicators that our lab study reveals only a subset of challenges using FFL; the remaining limitations suggest that task performance could improve for FFL, or both FFL and LaTeX, in more realistic settings. Challenges to using FFL should be further documented by refining the FFL toolkit and evaluating its use in real authoring settings.
+
+% As mentioned in Section \ref{study-participants}, while graduate students from a computer science department align with our envisioned users, they might not cover the full gamut of possible users we might wish to target. And while the participants are recruited to have some experience with LaTeX, the tutorial and cheat sheets are condensed to achieve parity and simplicity, omitting some features that would address concerns raised in Section \ref{improvements}. Added to limited time under which participants have to familiarize themselves with FFL, we were not able to directly obtain the findings in a feature-complete setting that simulates regular usage.
+
+% The time constraint of the study session also posed certain limitations in the tutorial section. To condense the oral tutorial and the cheat sheet, we did not cover features of \emph{FFL} that might resolve participants' questions in later tasks, such as the \texttt{intersection(}\dots\texttt{)} selector combinator and the under-development \texttt{:nth(}\dots\texttt{)} pseudo-selector. The omission of these existing features might affect participants' impressions of whether they were able to do what they wanted with \emph{FFL}. Also, under the time constraint, participants had a limited amount of time to get familiar with \emph{FFL}, so their task performance may not reflect the performance that they would have once they became more familiar with \emph{FFL}. In addition, the parity of the features and task objectives between the two interfaces we used throughout the study were determined in a somewhat subjective manner, despite them achieving very similar effects.
+
+% For similar reasons of time constraint, some participants who are not familiar with the task of augmentation could have been better served with better context and motivation, and were only limited to mimicking augmentations they were exposed to in the studies, again limiting the evaluation to a smaller set of features.
+
+% In the exploratory task, limited context and length of the provided excerpt, again due to the time constraint, might also weaken the demonstration of \emph{FFL}'s ability in augmenting real-world documents. Especially given that maths augmentation is not an overly common task among the general population and thus the participants, some participants augmented the given excerpt by merely mimicking previous tasks and demonstrations, as they had likely been primed to do so by this point in the study.
+
+% That said, given the clear differentiation within our sample, our results still showcases that FFL has a strong ``core'' upon which to be improved and refined, provided we stay principled in our design.
+
+\subsection{Future work}
+
+A first line of future research should address opportunities in extending FFL, some of which revealed in the study (Section~\ref{sec:shortcomings}).
+
+\paragraph{Scoping} Authors necessarily wish to restrict augmentations to particular expressions, formulas, and passages. While the FFL language provides such capabilities, these were either not discovered or used ineffectively by participants. A future solution could be to let authors specify local ``scopes'' of application in the document markup (e.g., labeling individual passages or formulas) in order to refer to them in selectors.
+
+% While there are proposed solutions to both formula-local and within-document scoping, mentioned in Section \ref{scoping}, as this is a commonly requested feature, further language-native design, implementation, and evaluation is still required to find the optimal solution.
+
+% Currently, all styles are invocation-global and selector combinators are the main mechanism for disambiguation between contexts of identical symbols. While FFL is designed to prioritize cross-cutting style, a more intuitive and efficient local scoping mechanism is expected by participants to apply styles to single selections. There are currently a few proposed solutions the remain to be evaluated and formally examined. For example, our \textit{markdown-it} extension does allow attaching inline style blocks immediately after a formula to be applied locally to a formula. And we are also working on a \texttt{.group} selector marked by double braces along with a \texttt{:nth(}\dots\texttt{)} pseudo-selector. Similarly, even though editor developers are able to design tools that do not invoke FFL with global styles, targeting only one single formula in a whole document also lacks a language-native solution. This has the possible solution using \textit{KaTeX}'s \texttt{\textbackslash htmlClass} as mentioned in Section \ref{scoping}, which is already partially supported, although furhter implementation still remains to be completed to support more of \textit{KaTeX}'s HTML-related macros and incorporating raw CSS selectors in general.
+
+\paragraph{Resilient expression matching} FFL's current approach to matching token sequences leads to some brittleness in matching expressions that are rendered the same way, but have different LaTeX markup (e.g., in the current implementation, \texttt{\$a\_0\textasciicircum{}1\$} matches ``\texttt{\$a\_0\textasciicircum{}1\$}'' but not ``\texttt{\$a\textasciicircum{}1\_0\$},'' even though they are rendered identically). This was largely not a problem for participants in the study, though we find this undesirable in our own use. FFL provides some flexibility to address cases like these, but we believe a more robust implementation of FFL may benefit from matching patterns with abstract syntax trees, rather than concrete token sequences.
+
+% \paragraph{Resilience and reliability of expression matching} While FFL's approach in mimicking CSS-style selectors seems to have worked in the majority of cases so far, the exact specification of its matching is not formally defined against that of LaTeX. We so far have taken a strategy of patchworks to maintain our functionalities, but a more complete understanding of the LaTeX specification is needed in order to create a more robust FFL implementation that fully respects the inherent structure of LaTeX, parts of which might not be explicit in its syntax.
+
+% removed due to duplicate in Potential Improvements section
+% \paragraph{Editor \& IDE features} As modern editors and IDEs provide an increasing range of quality-of-life features, many ingrained in the editing habits of users, the lack of such features in our simple editing environment was one of the major pain points among study participants, where typos went undiscovered and syntax errors unfixed. To avoid this source of unnecessary slowdown, it is necessary that \emph{FFL}'s editing environment provide more natural and user-friendly interactions which many have come to expect. 
+
+\paragraph{Further improvements} 
+As noted in Section~\ref{sec:shortcomings}, FFL should be extended with the ability to apply one label to multiple expressions, more precisely adjust the positions of labels, and better recognize and recover from syntax errors.
+
+% \paragraph{Additional customizations} Next on the list is richer customizations. Even though we aim to provide good defaults, some frequently requested refinements remain cumbersome, such as customization of label styles, horizontal label positions, and label sharing between multiple selections. We feel that some of these features might not be trivial to design, and the syntax space of FFL might need to be expanded in creative ways in order to accomodate them while maintaining consistency and simplicity.
+
+% \paragraph{Decisions on Syntax Choices}
+% While there have been no major complaints of the general direction of FFL syntax, we are not able to test all current or future elements of its design individually. Even though we might eventually create syntax-agnostic versions of the core library, a set of syntax that is natueal to a wide range of users is still needed if FFL is to see wider usage. (Note: PILERS?)
+
+\vspace{2.5ex}
+
+This research also points the way to follow-up research on math augmentation that extends into new sorts of tooling.
+
+\paragraph{Direct augmentation}
+Some participants desired assistance in writing selectors, understanding selections, and expressing styles. They proposed the ability to directly select them, highlight rendered expressions that are matched by selectors, and generate styles (Section~\ref{sec:shortcomings}). We see FFL as a stepping stone to interactive authoring tools involving direct augmentation like those described by participants, where FFL is used as a substrate, similarly to how backend visualization grammars like Vega-Lite~\cite{ref:satyanarayan2017vegalite} enables visualization exploration interfaces like Voyager~\cite{ref:wongsuphasawat2015voyager}. 
+
+\paragraph{Animated formulas}
+FFL was designed to augment static texts, like blog articles or online textbooks. What would an augmentation language look like for dynamic presentations of notation, like animations on the popular \emph{3Blue1Brown}~\cite{ref:3Blue1Brown} YouTube channel for explaining math, where formulas are built up step-by-step and annotated gradually with color and labels? We see FFL as a starting point for developing grammars of animated notation. However, new primitives would have to be designed, as they have in other areas with generalized visualization annotation DSLs for animation~\cite{ref:ge2020canis}.
+
+\paragraph{Making texts interactive}
+One pattern of augmentation is creating interactive formulas, where readers can tinker with the values of expressions and see how it influences downstream computations in the formula~\cite{ref:head2022math}.
+% What would an augmentation grammar look like that supported interactivity?
+Prior tools like Idyll~\cite{ref:conlen2018idyll}, \emph{Tangle.js}~\cite{tool:victortangle}, and Potluck~\cite{ref:litt2022potluck} envision the creation of parametric documents where values update reactively as users interact with controls. Extensions to FFL could unify such affordances with its syntax, perhaps even taking advantage of the computation a formula represents to automatically map values in one part of a formula to values elsewhere.
+
+\paragraph{Accessibility}
+Augmentations specified in a language like FFL encode additional meaning about a formula, such as what symbols make up meaningful expressions, and what those expressions mean. This information should ideally be surfaced in a way that is accessible to blind and low-vision readers. FFL could be extended to provide cues to screen readers to read a formula aloud in ways that improve upon the default reading order.
+
+% Much of math augmentations use expressive colors, and indeed it is also one of the scenarios where our tool is the most useful. It might be of concern that this creates challenges for visually impaired readers if authors over-depend on such augmentations. FFL would need to carefully consider how to maintain accessibility if authors are to rely on the tool more heavily.
+
+% \paragraph{Novel augmentation tools with FFL as foundation}
+% Future work can also focus on using FFL as a starting point to build up more powerful augmentation tools within programs such as slide editors and video tutorial editors to facilitate the broader vision for more user-friendly and efficient ways of presenting mathematical content. FFL could also serve as a component of direct manipulation tools, which are still preferred by some participants, particularly some unfamilar with CSS, despite issues discussed in \cite[Head et al.]{ref:head2022math}. This should also inform future development and enrichment of FFL as a more general purpose augmentation tool.
+
+% merged with "Foundation" above
+% \paragraph{Direct manipulation interface} Despite issues with direct manipulation styling interfaces discussed in \cite[Head et al.]{ref:head2022math}, a point-and-click style interface is still preferred by some of the participants, particularly for non-CSS users. An option for a direct manipulation interface for FFL might enhance ease and speed for authoring tasks, resulting in a more engaging and efficient user experience. We might consider use of the current core library and API for such an interface.
+
+% \paragraph{Making texts interactive}
+
+% \andrew{@Andrew, consider integrating the following as a future direction.}
+
+% \cite{tool:victortangle}
+% \cite{ref:litt2022potluck}
+% \cite{ref:dragicevic2019increasing}
+% \cite{ref:conlen2018idyll}
+
+
+% FFL could serve as the basis for more powerful editing tools (e.g., direct manipulation tools, or math animation tools), similarly to how Vega and Vega-Lite have provided a basis for novel interactive visualization authoring tools. This would require further work to ensure that FFL is sufficiently general and extensible.
+
+% \subsection{Decisions on Syntax Choices}
+% While the syntax might not seem as critical given the consideration of the potential
+% for syntax agnostic uses. It would still be useful in evaluating the usefulness of
+% our design to provide as universally helpful of a set of syntax as we can, in the case
+% that some authors or other users might wish to use the tool ``as-is'' rather than
+% relying on developers of editing tools. We should evaluate the ease of our tool
+% with use of a thoughtfully designed surface syntax in order to make some of the
+% involved decisions.
+
+% \subsection{Richer Selector Features}
+% A central area around our syntax design is the selectors.
+% Some might argue ``intersection'' combinators might not be the most intuitive
+% way of disambiguating, while other solutions such as lookahead/lookbehind or
+% the full CSS style combinators would also introduce a fair amount of complexity.
+% While we think selectors has the potential to be feature-ful, the different design
+% directions of this remains to be evaluated in order not to obstruct the ease of
+% simple tasks.
