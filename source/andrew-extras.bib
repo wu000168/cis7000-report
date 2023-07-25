@@ -50,7 +50,7 @@
 \def\journaltochi{ACM Transactions on Computer-Human Interaction}
 \def\journalsigplan{ACM SIGPLAN Notices}
 \def\journaltog{ACM Transactions on Graphics}
-\def\journaltvcg{ACM Transactions of Visualization and Computer Graphics}
+\def\journaltvcg{IEEE Transactions of Visualization and Computer Graphics}
 \def\confinteract{Proceedings of the International Conference on Human-Computer Interaction}
 \def\confoopsla{Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications}
 \def\confpldi{Proceedings of the Conference on Programming Language Design and Implementation}
@@ -78,7 +78,7 @@
 \def\confisese{Proceedings of the International Symposium on Empirical Software Engineering}
 \def\confsigcse{Proceedings of the Technical Symposium on Computer Science Education}
 \def\confwcre{Proceedings of the Working Conference on Reverse Engineering}
-\def\confhatra{Proceedings the Workshop on Human Aspects of Types and Reasoning Assistants}
+\def\confhatra{Proceedings of the Workshop on Human Aspects of Types and Reasoning Assistants}
 \def\confonward{Proceedings the Symposium on New Ideas in Programming and Reflections on Software}
 \def\confvldb{Proceedings of the International Conference on Very Large Data Bases}
 "}
@@ -88,14 +88,10 @@
   title     = {Math Augmentation: How Authors Enhance the Readability of Formulas Using Novel Visual Design Practices},
   author    = {Head, Andrew and Xie, Amber and Hearst, Marti A.},
   year      = {2022},
-  booktitle = {Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+  booktitle = {\confchi},
   publisher = {\pubacm},
-  numpages  = {18},
-  isbn      = {9781450391573},
-  url       = {https://doi.org/10.1145/3491102.3501932},
-  doi       = {10.1145/3491102.3501932},
-  articleno = {491},
-  keywords  = {mathematical notation, authoring, details-on-demand, visual links},
+  note = {\paperno{491}},
+
 }
 
 @online{tool:annotateequations,
@@ -156,7 +152,7 @@ pages = {239}
 @inproceedings{ref:anthony2005evaluation,
   title={Evaluation of multimodal input for entering mathematical equations on the computer},
   author={Anthony, Lisa and Yang, Jie and Koedinger, Kenneth R.},
-  booktitle={CHI'05 Extended Abstracts on Human Factors in Computing Systems},
+  booktitle={\confchi},
   pages={1184--1187},
   year={2005},
   publisher = {\pubacm}
@@ -181,7 +177,6 @@ pages = {239}
   author={Marghetis, Tyler and Landy, David and Goldstone, Robert L.},
   journal={Cognitive research: principles and implications},
   volume={1},
-  pages={1--10},
   year={2016},
   publisher={\pubspringer},
 }
@@ -236,10 +231,10 @@ pages = {239}
   title={{NiCE} Formula Editor},
   author={Leitner, Jakob and Rendl, Christian and Perteneder, Florian and Gokcezade, Adam and Seifried, Thomas and Haller, Michael and Zeleznik, Robert and Bragdon, Andrew},
   booktitle={ACM SIGGRAPH 2010 Talks},
-  pages={1--1},
+  articleno = {55},
+  numpages = {1},
   year={2010},
-publisher = {\pubacm}
-  
+  publisher = {\pubacm}
 }
 
 
@@ -247,10 +242,10 @@ publisher = {\pubacm}
 @inproceedings{ref:gobert2022ilatex,
   title={{i-LaTeX}: Manipulating Transitional Representations between LaTeX Code and Generated Documents},
   author={Gobert, Camille and Beaudouin-Lafon, Michel},
-  booktitle={Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
-  pages={1--16},
+  booktitle={\confchi},
+  note = {\paperno{554}},
   year={2022},
-publisher = {\pubacm}
+  publisher = {\pubacm}
 }
 
 % seems unused
@@ -262,58 +257,43 @@ publisher = {\pubacm}
   lastaccessed = {July 7, 2023}
 }
 
-
 @manual{tool:latex,
-  key = {The \LaTeX{} Project},
-  title = {The \LaTeX{} Project},
+  title = {\LaTeX{}},
+  author = {The \LaTeX{} Project},
   url = {https://www.latex-project.org},
   lastaccessed = {July 7, 2023}
 }
 
-
-
 @manual{tool:googleslides,
-  key = {Google Slides},
+  author = {Google},
   title = {Google Slides},
   url = {https://slides.google.com},
   lastaccessed = {July 7, 2023}
 }
 
-% seems unused.
-@manual{tool:keynote,
-  key = {Keynote},
-  title = {Keynote},
-  url = {https://www.apple.com/keynote/},
-  lastaccessed = {July 7, 2023}
-}
-
-
-
 @manual{tool:inkscape,
-  key = {Inkscape},
+  author = {Open-source contributors},
   title = {Inkscape},
   url = {https://inkscape.org/},
   lastaccessed = {July 7, 2023}
 }
 
-
-
 @manual{tool:mathcha,
-  key = {Mathcha},
+  author = {Bui Duc Nha},
   title = {Mathcha},
   url = {https://www.mathcha.io/},
   lastaccessed = {July 7, 2023}
 }
 
 @manual{tool:powerpoint,
-  key = {Microsoft PowerPoint},
-  title = {Microsoft PowerPoint},
+  title = {PowerPoint},
+  author = {Microsoft},
   url = {https://microsoft.com/powerpoint},
   lastaccessed = {July 7, 2023}
 }
 
 @manual{tool:codecogs,
-  key = {CodeCogs Equation Editor},
+  author = {Zyba Ltd.},
   title = {CodeCogs Equation Editor},
   url = {https://editor.codecogs.com/},
   lastaccessed = {July 7, 2023}
@@ -323,51 +303,40 @@ publisher = {\pubacm}
 @article{ref:ma2021latexify,
   title={Latexify Math: Mathematical Formula Markup Revision to Assist Collaborative Editing in Math Q\&A Sites},
   author={Ma, Suyu and Chen, Chunyang and Khalajzadeh, Hourieh and Grundy, John},
-  journal={Proceedings of the ACM on Human-Computer Interaction},
+  journal={\confcscw},
   volume={5},
   number={CSCW2},
-  pages={1--24},
   year={2021},
   publisher={\pubacm}
-}
-
-
-% seems unused
-@article{ref:perlin2018chalktalk,
-  title={Chalktalk: A Visualization and Communication Language--As a Tool in the Domain of Computer Science Education},
-  author={Perlin, Ken and He, Zhenyi and Rosenberg, Karl},
-  journal={arXiv preprint arXiv:1809.07166},
-  year={2018}
 }
 
 @inproceedings{ref:weitnauer2016graspable,
   title={Graspable {Math}: Towards dynamic algebra notations that support learners better than paper},
   author={Weitnauer, Erik and Landy, David and Ottmar, Erin},
-  booktitle={2016 Future Technologies Conference (FTC)},
+  booktitle={Proceedings of the Future Technologies Conference},
   pages={406--414},
   year={2016},
   publisher={\pubieee}
 }
 
-
-
 @inproceedings{ref:mendes2014structure,
   title={Structure editing of handwritten mathematics: Improving the computer support for the calculational method},
-  author={Mendes, Alexandra and Backhouse, Roland and Ferreira, Joao F.},
-  booktitle={Proceedings of the Ninth ACM International Conference on Interactive Tabletops and Surfaces},
+  author={Mendes, Alexandra and Backhouse, Roland and Ferreira, Jo\~ao F.},
+  booktitle={Proceedings of the ACM International Conference on Interactive Tabletops and Surfaces},
   pages={139--148},
   year={2014},
   publisher={\pubacm}
 }
 
 
-@incollection{ref:laviola2006mathpad2,
-  title={Mathpad2: a system for the creation and exploration of mathematical sketches},
-author = {LaViola, Joseph J. and Zeleznik, Robert C.},
-  booktitle={ACM SIGGRAPH 2006 Courses},
-  pages={33--es},
-  year={2006},
-publisher={\pubacm}
+@article{ref:laviola2006mathpad2,
+  year = {2004},
+  issue_date = {August 2004},
+  author = {LaViola, Joseph J. and Zeleznik, Robert C.},
+  journal = {ACM Trans. Graph.},
+  title = {MathPad$^2$: A System for the Creation and Exploration of Mathematical Sketches},
+  pages = {432–440},
+  publisher={\pubacm}
 }
 
 % seems unused
@@ -381,20 +350,19 @@ publisher={\pubacm}
   publisher={Elsevier}
 }
 
-
-@thesis{ref:pollock2022bluefish,
+@masterthesis{ref:pollock2022bluefish,
   title={Bluefish: A Grammar of Discrete Diagrams},
   author={Pollock, Joshua Maxwell},
   year={2022},
-  institution={Massachusetts Institute of Technology}
+  institution={Massachusetts Institute of Technology},
+  note={Master's thesis}
 }
-
 
 @inproceedings{ref:han2020textlets,
   title={Textlets: supporting constraints and consistency in text documents},
   author={Han, Han L. and Renom, Miguel A. and Mackay, Wendy E. and Beaudouin-Lafon, Michel},
-  booktitle={Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems},
-  pages={1--13},
+  booktitle={\confchi},
+  note = {\paperno{675}},
   publisher = {\pubacm},
   year={2020}
 }
@@ -413,12 +381,12 @@ author = {Mysore, Sheshera and Jasim, Mahmood and Song, Haoru and Akbar, Sarah a
 title = {How Data Scientists Review the Scholarly Literature},
 year = {2023},
 publisher = {\pubacm},
-booktitle = {Proceedings of the 2023 Conference on Human Information Interaction and Retrieval},
+booktitle = {Proceedings of the Conference on Human Information Interaction and Retrieval},
 pages = {137–152},
 }
 
 % not sure
-@article{ref:crichton2021new,
+@inproceedings{ref:crichton2021new,
   title = {A New Medium for Communicating Research on Programming Languages},
   author = {Crichton, Will},
   year = 2022,
@@ -428,26 +396,25 @@ pages = {137–152},
 
 
 @online{tool:curvenote,
-  key = {Curvenote},
-  title = {Equation {|} curvenote.dev},
+  author = {Curvenote},
+  title = {Equation},
   url = {https://curvenote.dev/article/equation},
   lastaccessed = {July 12, 2023}
 }
 
 
 @inproceedings{ref:li2022heartdown,
-  title={HeartDown: Document Processor for Executable Linear Algebra Papers},
+  title={H{\ensuremath\varheartsuit}rtDown: Document Processor for Executable Linear Algebra Papers},
   author={Li, Yong and Kamil, Shoaib and Jacobson, Alec and Gingold, Yotam},
   booktitle={SIGGRAPH Asia 2022 Conference Papers},
-  pages={1--8},
+  articleno = {51},
   year={2022}
 }
 
-
 @inproceedings{ref:ni2021recode,
-  title={recode: A lightweight find-and-replace interaction in the ide for transforming code by example},
+  title={\textsc{reCode}: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example},
   author={Ni, Wode and Sunshine, Joshua and Le, Vu and Gulwani, Sumit and Barik, Titus},
-  booktitle={The 34th Annual ACM Symposium on User Interface Software and Technology},
+  booktitle={\confuist},
   pages={258--269},
   year={2021},
   publisher = {\pubacm}
@@ -475,25 +442,22 @@ pages = {137–152},
   publisher={Elsevier}
 }
 
-
-
-@article{ref:wongsuphasawat2015voyager,
+@inproceedings{ref:wongsuphasawat2015voyager,
   title={Voyager: Exploratory analysis via faceted browsing of visualization recommendations},
   author={Wongsuphasawat, Kanit and Moritz, Dominik and Anand, Anushka and Mackinlay, Jock and Howe, Bill and Heer, Jeffrey},
-  journal={IEEE transactions on visualization and computer graphics},
+  journal={\journaltvcg},
   volume={22},
-  number={1},
   pages={649--658},
   year={2015},
   publisher={\pubieee}
 }
 
 @article{ref:rein2018exploratory,
-  title={Exploratory and live, programming and coding},
+  title={Exploratory and Live, Programming and Coding},
   author={Rein, Patrick and Ramson, Stefan and Lincke, Jens and Hirschfeld, Robert and Pape, Tobias},
   journal={The Art, Science, and Engineering of Programming},
+  publisher = {Aspect-Oriented Software Association ({AOSA})},
   volume={3},
   number={1},
-  pages={1--1},
   year={2018},
 }

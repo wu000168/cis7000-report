@@ -50,7 +50,7 @@
 \def\journaltochi{ACM Transactions on Computer-Human Interaction}
 \def\journalsigplan{ACM SIGPLAN Notices}
 \def\journaltog{ACM Transactions on Graphics}
-\def\journaltvcg{ACM Transactions of Visualization and Computer Graphics}
+\def\journaltvcg{IEEE Transactions of Visualization and Computer Graphics}
 \def\confinteract{Proceedings of the International Conference on Human-Computer Interaction}
 \def\confoopsla{Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications}
 \def\confpldi{Proceedings of the Conference on Programming Language Design and Implementation}
@@ -1133,7 +1133,7 @@
 
 @article{ref:shepherd2014reading,
   title = {Reading mathematics for understanding---From novice to expert},
-  author = {Shepherd, Mary D. and Van De Sande, Carla C.},
+  author = {Shepherd, Mary D. and van de Sande, Carla C.},
   year = 2014,
   month = {September},
   journal = {The Journal of Mathematical Behavior},
@@ -1169,7 +1169,7 @@
   volume = {SE-10},
   number = 5,
   pages = {595--609},
-  journaltitle = {\journaltse}
+  journal = {\journaltse}
 }
 
 @article{ref:srinivasan2019augmenting,
@@ -1188,7 +1188,8 @@
   volume = 1,
   number = 2,
   pages = {127--139},
-  journaltitle = {\journaljvlc}
+  journal = {\journaljvlc},
+  publisher = {Academic Press, Inc.}
 }
 
 @article{ref:tashtoush2013impact,
@@ -1198,7 +1199,7 @@
   volume = 7,
   number = 6,
   pages = {441--458},
-  journaltitle = {International Journal of Software Engineering and Its Applications}
+  journal = {International Journal of Software Engineering and Its Applications}
 }
 
 @article{ref:taylor2006effects,
@@ -1367,14 +1368,14 @@
   year = 2020,
   journal = {\journaltog},
   volume = 39,
-  pages = 144
+  articleno = {144}
 }
 
 @article{ref:yung2015effects,
   title = {Effects of Computer-Based Visual Representation on Mathematics Learning and Cognitive Load},
   author = {Hsin I. Yung and Fred Paas},
   year = 2015,
-  journal = {J. Educ. Technol. Soc.},
+  journal = {Educational Technology and Society},
   volume = 18,
   pages = {70--77}
 }
@@ -1576,7 +1577,8 @@
   title = {Awesome Mathematical Notation Design},
   author = {Hohman, Fred and {other contributors}},
   year = 2020,
-  url = {https://github.com/fredhohman/awesome-mathematical-notation-design}
+  url = {https://github.com/fredhohman/awesome-mathematical-notation-design},
+lastaccessed = {July 22, 2023}
 }
 
 @booklet{ref:hohman2020communicating,
@@ -2012,7 +2014,9 @@
   title = {Designing intelligent and dynamic interfaces for communicating mathematics},
   author = {Anton N. Dragunov and Jonathan L. Herlocker},
   year = 2003,
-  booktitle = {Proceedings of the International Conference on Intelligent User Interfaces}
+  booktitle = {Proceedings of the International Conference on Intelligent User Interfaces},
+  publisher = {\pubacm},
+  pages     = {236–238}
 }
 
 @inproceedings{ref:drosos2020wrex,
@@ -2302,11 +2306,15 @@
 }
 
 @inproceedings{ref:head2021augmenting,
-  title = {Augmenting Scientific Papers with Just-in-Time, Position-Sensitive Definitions of Terms and Symbols},
-  author = {Andrew Head and Kyle Lo and Dongyeop Kang and Raymond Fok and Sam Skjonsberg and Daniel S. Weld and Marti A. Hearst},
-  year = 2021,
-  booktitle = {\confchi}
+author = {Head, Andrew and Lo, Kyle and Kang, Dongyeop and Fok, Raymond and Skjonsberg, Sam and Weld, Daniel S. and Hearst, Marti A.},
+title = {Augmenting Scientific Papers with Just-in-Time, Position-Sensitive Definitions of Terms and Symbols},
+year = {2021},
+publisher = {\pubacm},
+booktitle = {\confchi},
+  note = {\paperno{413}}
 }
+
+
 
 @inproceedings{ref:hempel2018deuce,
   title = {Deuce: A Lightweight User Interface for Structured Editing},
@@ -2404,16 +2412,7 @@
   year = 2019,
   booktitle = {\confchi},
   publisher = {\pubacm},
-  note = {\paperno{579}},
-  isbn = {9781450359702},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3290605.3300809},
-  doi = {10.1145/3290605.3300809},
-  pages = {1–13},
-  numpages = {13},
-  keywords = {machine learning interpretability, visual analytics, data visualization, design probe, interactive interfaces},
-location = {Glasgow, Scotland Uk},
-series = {CHI '19}
+  note = {\paperno{579}}
 }
 
 @inproceedings{ref:hohman2020understanding,
@@ -2992,8 +2991,7 @@ series = {CHI '19}
   year = 2019,
   booktitle = {Proceedings of the SIGPLAN Conference on Systems, Programming, Languages, and Applications: Software for Humanity},
   publisher = {\pubacm},
-  pages = {143:1--143:29},
-  note = {\articleno{143}}
+  articleno ={143},
 }
 
 @inproceedings{ref:montandon2013documenting,
@@ -3310,16 +3308,19 @@ series = {CHI '19}
   title = {Constructing Embodied Algebra by Sketching},
   author = {Saquib, Nazmus and Kazi, Rubaiat Habib and Wei, Li-yi and Mark, Gloria and Roy, Deb},
   year = 2021,
-  booktitle = {\confchi}
+  booktitle = {\confchi},
+  publisher = {\pubacm},
+  articleno = {428}
 }
 
 @inproceedings{ref:satyanarayan2017vegalite,
   title = {Vega-Lite: A Grammar of Interactive Graphics},
   author = {Arvind Satyanarayan and Dominik Moritz and Kanit Wongsuphasawat and Jeffrey Heer},
   year = 2017,
-  booktitle = {\journaltvcg},
+  journal = {\journaltvcg},
   volume = 23,
-  pages = {341--350}
+  pages = {341--350},
+  publisher={\pubieee}
 }
 
 @inproceedings{ref:schilit1998beyond,
@@ -3818,12 +3819,13 @@ series = {CHI '19}
   address = {CTAN-Archive, ctan.org}
 }
 
-@manual{tool:manim,
-  title = {Manim},
-  author = {Sanderson, Grant},
-  url = {https://3b1b.github.io/manim/},
-  year = 2022,
-  organization = {Manim Community}
+@software{tool:manim,
+author = {{The Manim Community Developers}},
+license = {MIT},
+title = {{Manim – Mathematical Animation Framework}},
+url = {https://www.manim.community/},
+version = {v0.17.3},
+year = {2023}
 }
 
 @online{tool:victortangle,
@@ -4065,7 +4067,7 @@ series = {CHI '19}
 }
 
 @online{tool:labella,
-  key = {Labella.js},
+  author = {Krist Wongsuphasawat},
   title = {Labella.js},
   url = {https://twitter.github.io/labella.js/},
   lastaccessed = {September 16, 2020}

@@ -9,7 +9,7 @@ Below, we show detailed tables and figures of descriptive statistics collected f
 
 \subsection*{Task completion}
 
-\aptLtoX[graphic=no,type=html]{  \begin{table}[H]
+\aptLtoX[graphic=no,type=html]{ \begin{table}[H]
     \centering
     \begin{tabular}[t]{l|r r r r}
         & Task C1 & Task C2 & Task E1 & Task E2 \\\hline
@@ -103,7 +103,6 @@ In the tables below, cells show the mean \zed{and median} rating across particip
 % \end{table}
 \end{center} } 
 
-
 \aptLtoX[graphic=no,type=html]{ 
  \begin{table}[H]
     % \centering
@@ -163,22 +162,16 @@ In the tables below, cells show the mean \zed{and median} rating across particip
 % \end{table}
 \end{center} } 
 
-
+\ifreview
+\else
+\vfill
+\fi
 \section{Example Augmentations}\label{sec: open_task_image}
-Below, we show examples of augmentations authors performed in the open-ended authoring task on again \cite[Hohman et al.]{ref:hohman2019gamut}. The following passage from P26 is representative of most participants' finished work. It makes use of color to relate expressions to descriptions in the text, and labels to explain several expressions. \\[1ex]
-
+Below, we show examples of augmentations authors performed in the open-ended authoring task on again \citet{ref:hohman2019gamut}. The following passage from P26 is representative of most participants' finished work. It makes use of color to relate expressions to descriptions in the text, and labels to explain several expressions. \\[1ex]
 \centerline{\includegraphics[width=.86\linewidth]{figures/o-2595}\Description{An example augmentation authored by P26 in the exploratory task. All appearances of “x” and “x” with subscripts are colored red, as is the phrase explaining that “x” is a feature vector. All appearances of “y” and “y” with subscripts are colored green, as is the phrase explaining that “y” is the “target” variable. All appearances of “beta” with subscripts are colored in blue. In the block formula, “y” is labeled “target,” “beta-sub-0” is labeled “slope,” and “x-sub-1” is labeled “feature vector,” all with extent markers.}}
 
-% The above was a typical augmentation by P26. To enhance the readability of the given maths excerpt, P26 used various colors to draw associations between formula terms and related text, and labels to explain terms in the formula. 
-
 Other participants took different approaches. For instance, P13 used labels alone, believing them to be sufficient for a textbook-style passage (and that color was better suited for personal notes):\\[1ex]
-% We observed that participants' styling preferences varied. Some participants preferred only adding labels but not any colors. For example,\\
 {\centerline{\includegraphics[width=.86\linewidth]{figures/o-3382}\Description{An example augmentation authored by P13 in the exploratory task. Only labels were used. In the block formula, “y” is labeled “target,” “beta-sub-1” is labeled “slope term for feature-underscore-1”; and “x-sub-1” is labeled  “input for feature-underscore-1.” All labels use leader lines, with labels appearing above the formula.}}
 
-% P13 used only labels to augment the formula to improve readability for the given maths excerpt. This participant mentioned that adding labels was sufficient and concise in such a textbook-style excerpt; colors were more useful with hand-written notes.
-
-% \begin{minipage}{\linewidth} % This minipage prevents the last image from getting split from the text on the last page
-Some participants experimented more ambitiously with CSS, when they had sufficient prior knowledge. For instance, P17 experimented with \texttt{background-color}, \texttt{font-size}, and \texttt{font-weight} and expressions, in addition to the other typical augmentations.
-% \\[1ex]
-
+Some participants experimented more ambitiously with CSS, when they had sufficient prior knowledge. For instance, P17 experimented with \texttt{background-color}, \texttt{font-size}, and \texttt{font-weight} and expressions, in addition to the other typical augmentations. \\[1ex]
 \centerline{\includegraphics[width=.86\linewidth]{figures/o-3297}\Description{An example augmentation authored by P17 in the exploratory task. All symbols in the block formula are bolded and given a background color of gray. “y” is colored green and given the label “prediction vector.” Outside the formula, all “x” symbols with subscripts are colored red; in the block formula, they are given a gold color.  Outside the formula, all “y” symbols with subscripts are colored in blue. All the “beta” symbols with subscripts are bolded.}}

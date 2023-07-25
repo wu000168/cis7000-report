@@ -1,9 +1,5 @@
 \section{Evaluation}
 
-% \andrew{@Andrew continue adding some context of where in the language design process this evaluation took place. Try to place it within Coblenz' PLIERS framework.}
-
-% \andrew{This section needs to be updated to consistently use past tense to refer to the procedure.} - someone validate?
-
 To evaluate FFL's impact on the experience of authoring augmentations, we conducted an in-lab usability study. The study was designed to answer the following questions:
 
 \begin{enumerate}
@@ -13,37 +9,15 @@ To evaluate FFL's impact on the experience of authoring augmentations, we conduc
 
 The study consisted of a controlled comparison between FFL and a LaTeX baseline for augmentation creation and editing tasks, followed by an exploratory authoring task with FFL.
 
-% We conducted an hour-long-per-session in-lab usability study, collecting task completion times and user responses, to evaluate the productivity, ease, and readability using FFL.
-
-% We compare all these metrics against the baseline of LaTeX in the environment of \textit{Overleaf} \cite{todo}, as it is one of the most common tools used to author and augment documents with math notations, and that it is one of our closest alternative since we also uses LaTeX syntax with the \textit{KaTeX} \cite{KaTeX} engine in our design and implementation of FFL.
-
-% One might also consider alternatives such as \textit{MathML}, which we did not compare against in this case, for that it is not only less commonly used, and much less well-supported at the time of implementation, but it is also more often not directly written by users but rather generated through other interfaces. Nonetheless, even though the intended use cases differ, we do still consider the possibility that \textit{MathML} representations of math notations might still be a good potential candidate with which to integrate in Section \ref{mathml_integration} as it becomes more widely supported.
-
 \subsection{Participants}\label{study-participants}
 
 We sought participants with experience authoring math documents with LaTeX. Participants were recruited from graduate student mailing lists at a computer science program at a private university, with the sole prerequisite of prior experience writing LaTeX formulas.
 
 33 participants were recruited in total. The vast majority were master's students; 7 were students in a joint bachelor's / master's program. 3 described themselves as software developers, 1 as an academic researcher, and 1 as a teacher.
 
-\zed{Participants reported their prior experience with LaTeX as follows}: 24\% had less than 1 year of experience; 48\% had 1--2 years, 21\% had 3--5 years, and 6\% had more than 5 years. 55\% used LaTeX weekly, 18\% monthly, and 24\% less often than monthly. Participants reported their comfort with LaTeX as a median of 4 on a 5-point Likert scale ($\sigma = 0.8$, \zed{$\text{IQR}=1$}). They were considerably less comfortable with CSS, with a median comfort level of 2 out of 5 ($\sigma = 1.0$\zed{, $\text{IQR}=1$}).
-
-% For the study, we recruited 33 participants from various graduate mailing lists of the Computer and Information Science Department at the University of Pennsylvania School of Engineering and Applied Sciences. The participants consist of mainly graduate students, with 7 being sub-matriculation program students also enrolled as undergraduates, while 3 among all participants considered themselves also software developers, 1 academic researcher, and 1 teacher. While this is a limited sample, we do hope to still observe some general trends as graduate students is a population that often require writing math notations and might use it for teaching or tutorials in their current or future careers. This also allows us to select for participants with at least a minor amount of experience with LaTeX to remove the common factor of familiarity with basic LaTeX math between FFL selectors and LaTeX itself.
-
-% That said, the participants did report a wide range of experience with both LaTeX and CSS. They reported years of experience using LaTeX ranging from less than 1 year (8), 1-2 years (16), 3-5 years (7), to more than 5 years (2), and usage frequency ranging from almost never (1), less than monthly (7), monthly (6), weekly (17), to daily (1). And they are overall somewhat comfortable with LaTeX but somewhat uncomfortable with CSS. Rating on a 5-point Likert scale of agreement with the statement ``I feel comfortable using \dots to write mathematical formulas,'' the number of participants reported the scores are
-% \begin{center}
-%     \begin{tabular}{r |c c c c c}
-%      Comfort Level & 1 & 2 & 3 & 4 & 5 \\\hline
-%      LaTeX & 0 & 4 & 8 & 18 & 3 \\
-%      CSS & 8 & 13 & 7 &5 & 0
-%     \end{tabular}
-% \end{center}
-
-% Ordered lists of comfort ratings:
-% LaTeX: 2 2 2 2 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 5 5 5
-% CSS: 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 4 4 4
+\zed{Participants' prior experience with LaTeX was as follows}: 24\% reported less than 1 year of experience; 48\% 1--2 years, 21\% 3--5 years, and 6\% reported more than 5 years. 55\% used LaTeX weekly, 18\% monthly, and 24\% less than monthly. Participants reported their comfort with LaTeX as a median of 4 on a 5-point Likert scale ($\sigma = 0.8$, \zed{$\text{IQR}=1$}). They were considerably less comfortable with CSS, with a median comfort level of 2 out of 5 ($\sigma = 1.0$\zed{, $\text{IQR}=1$}).
 
 \subsection{Procedure}
- % and consent information, a tutorial on both tools, augmentation tasks using both tools, and a short interview, with relevant questionnaires interleaved in between each component.
 
 \subsubsection{Setup}
 All study sessions were conducted in person in an HCI usability study lab. Participants completed tasks using a computer with a large external monitor, keyboard, and USB mouse. Progress was managed by a custom web app we built to facilitate the study. This app opened the user interfaces participants were expected to use for tasks, and pre-loaded them with task stimuli. It also opened questionnaires after each task. For FFL tasks, participants used a custom live editing environment. For LaTeX tasks, they used Overleaf~\cite{tool:overleaf}. Two participants needed to complete the tasks on a personal laptop instead of the lab computer; these participants' data were used in our qualitative analysis but omitted from the quantitative analysis (Section~\ref{Analysis}).
@@ -52,7 +26,7 @@ All study sessions were conducted in person in an HCI usability study lab. Parti
 Participants were given 10-minute tutorials of how to augment formulas with both of the interfaces under study---FFL and the LaTeX baseline. A member of the research team demonstrated how to perform key augmentation actions, like selecting expressions, coloring them, and labeling them with line and extent labels, both above and below the formula. Tutorial materials were designed to maximize parity in how the interfaces were introduced while minimizing complexity of the learning material. Participants were asked to practice each feature that was introduced on a sample formula. They were provided with a cheat sheet for each interface to use as a reference during the tasks.
 
 \subsubsection{Interfaces}
-The two interfaces participants used were a live editor with FFL support, and a baseline LaTeX environment. \zed{The FFL environment is described in Section~\ref{sec:live_evaluation}. The environment offers only limited support for error recovery: if the author enters a syntactically invalid specification, the interface reports that an error was found without reporting character positions, while continuing to show the render of the last correct specification}. In LaTeX, participants were taught how to create augmentations using \texttt{\textbackslash textcolor} to color expressions, \texttt{\textbackslash overbrace} or \texttt{\textbackslash underbrace} to introduce labels with extent markers, and \texttt{annotate-equations}~\cite{tool:annotateequations} to introduce labels with leader lines, including the optional argument \texttt{yshift} for adjusting the vertical position of labels.
+The two interfaces participants used were a live editor with FFL support, and a baseline LaTeX environment. \zed{The FFL interface is the same as the environment described in Section~\ref{sec:live_evaluation}. The interface provides only basic support for error recovery: when an author enters invalid FFL, the interface reports that an error was found (without any character positions), while continuing to show the render of the most recent valid FFL}. In LaTeX, participants were taught how to create augmentations using \texttt{\textbackslash textcolor} to color expressions, \texttt{\textbackslash overbrace} or \texttt{\textbackslash underbrace} to introduce labels with extent markers, and \texttt{annotate-equations}~\cite{tool:annotateequations} to introduce labels with leader lines, including the optional argument \texttt{yshift} for adjusting the vertical position of labels.
 
 \subsubsection{Tasks}
 Each participant completed four timed tasks and a single exploratory task. After each task, participants completed a questionnaire reflecting on their experience.
@@ -67,25 +41,19 @@ Within each pair of tasks, participants completed one task with FFL and one task
 \begin{center}
     \begin{tabular}{r l|r l|r l|r l}
          \multicolumn{2}{c|}{Task 1} & \multicolumn{2}{c|}{Task 2} & \multicolumn{2}{c|}{Task 3} & \multicolumn{2}{c}{Task 4}\\\hline
-         C1 &FFL & C2 &LaTeX & E1 &FFL & E2 &LaTeX \\
-         C2 &FFL & C1 &LaTeX & E2 &FFL & E1 &LaTeX \\
-         C1 &LaTeX & C2 &FFL & E1 &LaTeX & E2 & FFL \\
-         C2 &LaTeX & C1 &FFL & E2 &LaTeX & E1 & FFL \\
+         C1 &FFL   & C2 &LaTeX & E1 &FFL   & E2 &LaTeX \\
+         C2 &FFL   & C1 &LaTeX & E2 &FFL   & E1 &LaTeX \\
+         C1 &LaTeX & C2 &FFL   & E1 &LaTeX & E2 & FFL \\
+         C2 &LaTeX & C1 &FFL   & E2 &LaTeX & E1 & FFL \\
     \end{tabular}
-%    \Description{Four variants of task and interface orderings. These orderings were assigned randomly in a balanced way to mitigate ordering effects.}
 \end{center}
 
 % which we will refer to as C1, C2, for augmentation \underline{c}reation tasks, and E1, E2 for augmentation \underline{e}diting tasks.
 
 All tasks were timed to compare the speed of completion. A task concluded when a participant completed the task and reported they were done, or when they reached an imposed time limit of 6 minutes and 30 seconds.
 \zed{The facilitator verified completion by comparing the participant's output to a reference result using a rubric that permitted very small differences in color and label position. The task duration was chosen by observing that pilot participants completed most tasks within 5 minutes; we then increased task duration to the longest that could be accommodated in the hour-long study.} Over 80\% of tasks were completed before reaching the time limit. 
-% \zed{, which was the longest we could allow within the time limit of the study.\footnote{\zed{For reference, participants of pilot studies completed the tasks completed same tasks within around 5 minutes. Of the lab study described in this paper, we report the distribution of task completion times in our results (\hyperref[fig:timing]{Figure 4}), including their medians and quartiles.}}} \zed{The time is then logged when the facilitator verifies the output according to a rubric which allows at most a small amount of variation in color and spacing.} Over 80\% of tasks were completed before reaching the time limit.
 
-% Tasks C1 and C2 consisted of 3 colors and 3 extent labels each. Participants were given only the unstyled formulas and asked to replicate augmentation given a screenshot.
-
-% In tasks E1 and E2, participants were given an already styled formula and were asked to modify 4 styling elements to replicate a screenshot, for example, moving the positions labels or removing colors. There were in general more augmentations in formulas in E1 \& 2 compared to C1 \& 2.
-
-\paragraph{Exploratory task} Finally, participants were given 10 minutes to augment a short document resembling the one from Section~\ref{Demo}, and asked to augment it in a way that made the formula easier to understand. They were encouraged to explore the augmentation features, and allowed to ask about how to use FFL to achieve their goals. They were also asked to follow the \textit{think-aloud} protocol~\cite{think-aloud}, as demonstrated by their facilitator. %, where we recorded their interactions with the interface.
+\paragraph{Exploratory task} Finally, participants were given 10 minutes to augment a short document resembling the one from Section~\ref{Demo}, and asked to augment it in a way that made the formula easier to understand. They were encouraged to explore the augmentation features, and allowed to ask about how to use FFL to achieve their goals. They were also asked to follow the \textit{think-aloud} protocol~\cite{think-aloud}, as demonstrated by their facilitator. 
 
 \subsubsection{Questionnaire and interview instruments}
 After each timed task, participants were asked to complete a brief questionnaire reporting how difficult the task was, and to comment on how the interface could have better supported them in their tasks. At the conclusion of the study, participants completed a retrospective questionnaire reflecting on their experience with the interfaces overall. Then, they were interviewed for several minutes as the researcher asked follow-up on questions motivated by observations or responses to the questionnaire.
@@ -95,4 +63,3 @@ To examine the effect of interface on task timing and participants' self-reporte
 
 Observation notes, open-ended questionnaire feedback, as well as interview transcripts were analyzed following a thematic analysis approach~\cite{ref:blandford2016qualitative}. Two authors performed an open coding pass, each analyzing half of the observation and questionnaire data and then merging the results. Another two authors reviewed the codes comprehensively. The four authors worked together to revise and organize themes, and to check the alignment between excerpts and themes. One author then reviewed interview transcripts to identify excerpts relating to central themes that emerged from the analysis that had not yet been captured in the observation notes.
 
-% We also accompany all said results with relevant participant responses (selected from all 33 participants) to questionnaires, observations of their interactions with the tools during the tasks, and post-study interview questions, along with our interpretation.

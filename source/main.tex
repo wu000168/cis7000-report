@@ -20,16 +20,21 @@
 %-%% Author version (for posting on personal sites)
 %-%\ifauthorversion
 %-%\documentclass[sigconf,screen,authorversion]{acmart}
-%-%\newcommand\zed[1]{{#1}}
 %-%\else
 % Version submitted to ACM
 
-\documentclass[sigconf]{acmart}
 % Changes highlighted
 % \documentclass[manuscript,review,screen]{acmart}
 %-%\fi
 %-%\fi
 %-%\fi
+
+\ifreview
+\documentclass[anonymous,sigconf,review]{acmart}
+\else
+\documentclass[sigconf]{acmart}
+\fi
+
 
 \usepackage[T1]{fontenc}
 \usepackage[fleqn]{mathtools}
@@ -45,6 +50,7 @@
 \else
 \newcommand\zed[1]{{#1}}
 \fi
+% \newcommand\zed[1]{\textcolor{orange}{#1}}
 
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
@@ -199,21 +205,24 @@
 \definecolor{teasermagenta}{RGB}{134,37,82}
 \begin{teaserfigure}
   \vspace{-1ex}
-  \includegraphics[width=\textwidth]{figures/teaser}
+  \includegraphics[width=\textwidth]{figures/teaser.pdf}
   \vspace{-5ex}
   \caption{Two augmented formulas and their accompanying augmentation specifications written in FFL (``Formula Formatting Language''). \normalfont FFL is designed to be concise, writable, readable, and integrable into web-based document authoring environments. Augmentations are specified using selectors (\textcolor{teasercyan}{dark blue}) that match classes of expressions, and properties (\textcolor{teasermagenta}{magenta}) that apply augmentations like color and labels to formulas. The language can be processed with its live runtime offering rapid feedback to notation authors. The pictured augmentations are adapted from those in documents by \citet{ref:hohman2019gamut} and \citet{ref:murad2020navierstokes}.}
   \vspace{2ex}
-  \Description{Two formulas augmented using FFL. Each formula is shown with an FFL style block that augments it appearing below the formula. The FFL style code consists of selectors and style properties. The first formula is  a linear combination formula, where different expressions are colorized; the second formula is a Navier-Stokes equation, augmented with an extent label describing the right side of the formula as describing “FORCE.”}
+  \Description{Two formulas augmented using FFL. Each formula is shown with an FFL style block augmenting it below the formula. The FFL style code consists of selectors and style properties. The first formula is a linear combination formula, where different expressions are colorized; the second formula is a Navier-Stokes equation, augmented with an extent label describing the right side of the formula as describing “FORCE.”}
   \label{fig:teaser}
 \end{teaserfigure}
 
-\received{30 June 2023}
+\received[Revised]{29 July 2023}
 % \received[revised]{12 March 2009}
 % \received[accepted]{5 June 2009}
 
 \maketitle
-% \raggedbottom
-\pagebreak
+\ifreview
+\raggedbottom
+\else
+\raggedbottom\pagebreak\flushbottom
+\fi
 \input{01-intro}
 \input{02-relatedwork}
 \input{03-system}
@@ -232,5 +241,5 @@
 
 \appendix
 \input{09-appendix}
-\vspace{-2em}
+\vspace{-4ex}
 \end{document}

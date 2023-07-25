@@ -1,10 +1,8 @@
 \section{Background and Related Work}
 
-% SHORTENING OPPORTUNITY: maybe replace the following with:
-% SHORTER VERSION: In this section, we discuss why authors might wish to augment notation and then situate our system amidst related work.
-In this section, we discuss why authors might wish to augment notation and then situate our work relative to prior tools for authoring and augmenting formulas.
-
-% In this section, we review why an author might wish to augment math notation. Then, we review prior tools that support augmentation of notation, crystallizing the purpose of FFL as providing a lightweight markup language for use in web authoring contexts. We also relate FFL to recent HCI systems that provide similar affordance for different kinds of documents.
+% SHORTER VERSION:
+In this section, we discuss why authors might wish to augment notation and then situate our system amid related work.
+% In this section, we discuss why authors might wish to augment notation and then situate our work relative to prior tools for authoring and augmenting formulas.
 
 \subsection{Notation and augmentation}
 
@@ -25,24 +23,16 @@ The popularity of TeX as a language for formula typesetting has led to web-based
 
 Notation augmentation is a feature of several recent markup languages for math and science communication. Nota~\cite{ref:crichton2021new} and Heartdown~\cite{ref:li2022heartdown} let authors specify definitions of symbols, revealing symbol definitions in the margins of selected formulas when clicked upon. Curvenote's editor API~\cite{tool:curvenote} provides support for parametric LaTeX formulas, where numeric values can be substituted into formulas as users interact with widgets. \emph{manim}~\cite{tool:manim} supports the creation of animations of math formulas with step-by-step builds and incremental annotation. We share motivation with these projects, aiming to create an extensible augmentation language and runtime for static math texts~\cite{ref:head2022math}.
 
-Why focus on augmentation in markup editors rather than other sorts of document editors? Markup, and in particular TeX, is used pervasively within the sciences and academia.
-% SHORTENING OPPORTUNITY
-% SHORTER VERSION: It is a preferred tool for disseminating and archiving mathematical ideas~\cite{ref:misfeldt2011computers}.
-It is a preferred tool for writing math notation not necessarily for sketching out ideas, but rather for disseminating or archiving them~\cite{ref:misfeldt2011computers}.
+Why focus on augmentation in markup editors rather than other sorts of document editors? Markup, and in particular TeX, is used pervasively within the sciences and academia. It is a preferred tool for disseminating and archiving mathematical ideas~\cite{ref:misfeldt2011computers}.
 One study suggests writers can enter notation-dense passages more efficiently with TeX than with structured editors~\cite{ref:knauff2014efficiency}. TeX is used widely enough that WYSIWYG editors like Word have incorporated it as a language for formula input~\cite{ref:matthews2019craft}. We see the development of effective markup-based augmentation tools as a natural springboard for efforts to develop better augmentation tools generally.
-
-% \textit{MathML}~\cite{tool:mathml} is a dialect of XML that allows authors to write formulas using a structured markup language; expressions in the rendered formulas can be styled using CSS. Our initial aim with FFL was to leverage the familiar language of CSS for augmentation in conjunction with the familiar method of writing formulas using TeX, in a way that supports efficient selection of expressions separate from the formula markup.
 
 \paragraph{Structured editors}
 
 WYSIWYG document editors like Word~\cite{tool:wordformulaeditor} sometimes provide structured formula editors. These editors can be used to augment formulas by selecting labels from menus, or by applying their tools for formatting text. Toolkits like MathType make such functionality available as a plugin to other editing applications~\cite{ref:topping1999using}. One advantage of these tools is that their WYSIWYG design makes augmentation affordances easier to discover.
-% ; we discuss the ability to combine structured editors with languages like FFL in the discussion.
 
 \paragraph{Vector graphics editors}
 
-Formulas can be augmented using vector-based graphics editing software; Head et al.'s study describe Google Slides~\cite{tool:googleslides}, Inkscape~\cite{tool:inkscape}, Mathcha~\cite{tool:mathcha}, and PowerPoint~\cite{tool:powerpoint} as several tools that authors are already using. Some of these tools require authors to render formulas outside of the environment (e.g., with CodeCogs~\cite{tool:codecogs}) and import the render as a bitmap or vector graphics into the editor. These tools are often both familiar to authors and flexible---authors can add augmentations using the full complement of text formatting and shapes the tools provide.  FFL and vector graphics editors occupy two complementary areas of the augmentation design space, with FFL focusing on supporting typesetting experience and transferable styles, and vector graphics editors offering flexible augmentation through direct manipulation.
-
-% \andrew{Can we add in e-Proofs~\cite{ref:alcock2011eproofs} here? I can't remember what its authoring environment looks like.}
+Formulas can be augmented using vector-based graphics editing software; Head et al.'s study describes Google Slides~\cite{tool:googleslides}, Inkscape~\cite{tool:inkscape}, Mathcha~\cite{tool:mathcha}, and PowerPoint~\cite{tool:powerpoint} as several tools that authors are already using. Some of these tools require authors to render formulas outside of the environment (e.g., with CodeCogs~\cite{tool:codecogs}) and import the render as a bitmap or vector graphics into the editor. These tools are often both familiar to authors and flexible---authors can add augmentations using the full complement of text formatting and shapes the tools provide.  FFL and vector graphics editors occupy two complementary areas of the augmentation design space, with FFL focusing on supporting typesetting experience and transferable styles, and vector graphics editors offering flexible augmentation through direct manipulation.
 
 \paragraph{Sketch and gesture}
 Formulas can also be written and augmented as sketches~\cite{ref:laviola2006mathpad2,ref:zeleznik2010hands,ref:leitner2010nice,ref:saquib2021constructing}. In sketching tools, augmentations are naturally supported when authors are given the ability to change ink color and draw free-form shapes. Some sketching tools support unique augmentations, like linking expressions to sketched physical objects~\cite{ref:laviola2006mathpad2,ref:saquib2021constructing}, or manipulating expressions with gestures~\cite{ref:zeleznik2010hands,ref:weitnauer2016graspable,ref:mendes2014structure}. Some of these affordances could be adapted as advanced augmentations for languages like FFL in the future.
@@ -61,173 +51,3 @@ One of the facilities of FFL is to support the creation of simple formula diagra
 
 \paragraph{Live feedback}
 FFL supports third-level or ``edit-triggered'' liveness, according to Tanimoto's taxonomy of liveness~\cite{ref:tanimoto1990viva}. Liveness has been a central feature of dozens of research systems~\cite{ref:rein2018exploratory}. Its use in LaTeX tooling (e.g.,~\cite{ref:gobert2022ilatex,ref:dragicevic2011gliimpse}) may arise from the fact that LaTeX documents require time-consuming compilation to view the effect of a change. FFL incorporates liveness to equip authors with more rapid feedback as they are experimenting with augmentations.
-
-% As with any user interface, a markup language that offers rapid feedback reduces the time it takes an author to understand the effects of their actions. FFL was designed and implemented to allow for live re-rendering, in contrast to typical LaTeX tools that require recompilation. The difficulty of mapping between one's LaTeX and the resulting rendered document has previously led to the design of widgets that provide context-local rendering of parts of LaTeX documents~\cite{ref:gobert2022ilatex}, and programming environments that use animation to show how tokens in LaTeX correspond to tokens in the rendered document~\cite{ref:dragicevic2011gliimpse}. FFL provides live feedback specifically on augmentations; to enable this in a web authoring environment required careful integration with the KaTeX formula typesetter. 
-
-% Old stuff
-
-% This research is motivated by a recently-conducted needs assessment~\cite{ref:head2022math}. The challenges from that paper that this one aims to address are clunky markup, and cross-document changes.
-
-% \andrew{Give a brief overview of research that suggests that augmentations to formulas might influence how they are read. Refer to Ottmar paper that describes how our brain is rewired through repeated exposure to be able to process formulas.}
-
-% When considering the space of tools for augmenting math formulas, tools are of several kinds. The first is WYSIWYG formula editing tools, like the built-in formula editor in Microsoft Word. The second are general purpose vector graphics editing tools, like PowerPoint or InkScape---formulas can be rendered as bitmaps or vector graphics, and then edited as basic vector graphics in these programs by colorizing expressions, adding labels, and so on. A third kind are typesetting tools, like LaTeX and its accompanying packages for colorizing and labeling formulas~\cite{tool:annotateequations}.
-
-% There are also sketch- and gesture-based formula editors. This includes MathDeck, Saquib et al.'s project, Graspable Math, and Hands-on Math. These projects suggest affordances for creating and manipulating formulas that are more direct than writing in typesetting languages. Our project assumes that formulas are written using a typesetting language like LaTeX.
-
-% Some LaTeX editors make the authoring of formulas easier. Examples include i-LaTeX, the Daum Equation Editor, and other projects.
-
-% There are related projects on creating diagrams automatically, including 
-
-% Other projects provide similar affordances for texts and visualizations generally. Textlets supports making cross-cutting edits to terms and phrases in a document. Potluck and Tangle.js, and Kay et al.'s multiverse analysis enliven texts in another way, allowing readers to change values in a text, and see their effect to downstream computations (e.g., test statistics, quantities in a recipe, etc.) computed. Parametric Press provides another example.
-
-% \andrew{And then an even older version of the related work has been commented out below}
-% There has long been need for richer formats that facilitate readers to better
-% comprehend math documents as it is often not straightforward with sometimes large
-% and/or local nomenclature of notations that might be visually busy or difficult to
-% navigate \cite{MathComm}. And despite the advancement of digital
-% typesetting and the variety of document setting tools that allow augmentations to math notations,
-% there remains pain points and barriers to quick design and application of
-% these desired augmentations \cite{MAug} in these math documents.
-
-% There have been many attempts in creating tools to make powerful math augmentations
-% more accessible and easier to create. \textit{i-LaTeX}\cite{iLaTeX} approaches this by
-% creating ``transitional representations'' that maintains the power of code fragments
-% while taking lessons in direct manipulation from WYSIWYG interfaces. There are also
-% \textit{Penrose}\cite{Penrose}, \textit{Bluefish}\cite{Bluefish} who lean into the
-% code/language-based approach as we do, but generally define their grammar from the ground up.
-% We also find more powerful domain-specific tools already in production use, such as
-% \textit{Manim}\cite{manim}, an animation engine by the immensely popular math educational video creator
-% \textit{3Blue1Brown}, which has since been forked and maintained by the community.
-
-% These tools create incredible opportunities to created enhanced presentation of
-% math documents, but some incur a significant learning curve while others are not
-% as general-purpose as we would like.
-
-
-
-% Another version of the outline appears below...
-% Notation can be difficult to understand.
-% \cite{ref:cai2019software}
-% \cite{ref:adams2003reading}
-% (It is hard to read in papers)
-% \cite{ref:mysore2023how}
-% (Experts appear to parse formulas differently than less experienced readers).
-% \cite{ref:shepherd2014reading}
-% (Learning algebra retrains the visual system to parse structures).
-% \cite{ref:marghetis2016mastering}
-% Practices have emerged for augmenting notation.
-% \cite{ref:head2022math}
-% \cite{ref:3Blue1Brown}
-% \cite{ref:hohman2020awesome}
-% \cite{ref:dragunov2003designing}
-% Such practices may be able to help readers.
-% \cite{ref:harrison2020spacing}
-% \cite{ref:goldstone2017adapting}
-% \cite{ref:yung2015effects}
-% But these tools remain difficult to use.
-% \cite{ref:head2022math}
-
-% Mathematicians write notation. They often do so using typesetting tools. While there are of course advantages to writing by hand, typesetting tools remain in widespread use.
-% % Mathematicians write notation. They often do so using typesetting tools.
-% \cite{ref:misfeldt2011computers}
-% \cite{ref:knuth1986tex}
-% % While there are of course advantages to writing by hand or using WYSIWYG editors...
-% % (Writing by hand often outperforms digital tools, even if not LaTeX...)
-% \cite{ref:quinby2020effects}
-% \cite{ref:anthony2005evaluation}
-% % (Word is usable for authoring formulas)
-% \cite{ref:loch2015master}
-% % One measure suggests that typesetting led participants to write formulas more quickly
-% \cite{ref:knauff2014efficiency}
-% % Typesetting tools remain in widespread use.
-% \cite{ref:matthews2019craft}
-
-% \paragraph{Markup languages}
-% First, there are facilities within markup languages (LaTeX, KaTeX's extensions, MathML, etc.)
-% \cite{tool:latex}
-% \cite{tool:carlisle1997color}
-% \cite{tool:madsen2014mathtools}
-% \cite{tool:annotateequations}
-% \cite{tool:katex}
-% \cite{tool:mathml}
-% \cite{ref:igalia2023igalia}
-% There are also other assistive tools for authoring LaTeX. One particular set of technologies helps a reader track correspondences between tokens in the LaTeX (in either prose or in equations) and corresponding tokens in the compiled PDF.
-% \cite{ref:gobert2022ilatex}
-% \cite{ref:dragicevic2011gliimpse}
-% There are also new markup languages emerging that support augmented math.
-% % (I need better differentiation from Nota and Curvenote, and to express why we did not compare to them).
-% \cite{ref:crichton2021new}
-% \cite{ref:li2022heartdown}
-% \cite{tool:curvenote}
-% % Nota (macros for coupled underlining of text and expressions, and facilities for defining definitions)
-% % Heartdown (provides pointers from symbol definitions to their use), and links between notation and generated visualizations.
-% % Curvenote (provides macro-based grammar for colorizing, and simple utilties for symbold efinitions).
-% % manim.
-% This research was motivated by a feeling that new syntaxes were needed that could provide both a low threshold and eventually a high ceiling~\cite{ref:myers2000past}, along with simple expression of common augmentations. For instance, we believe it should be easy to colorize formulas, and to define always-on augmentation; these require a different way of thinking about processing the markup. Furthermore, we envision leveraging authors' existing knowledge of languages like CSS to support their writing.
-% \andrew{One of the ways in which we can differentiate is in stating that we are trying to conduct user-centered research and evaluations to assess the usability of these markup languages (I think a lot of this prior work has not done so, and I think it is really important).}
-
-% \paragraph{Structured editors}
-% Second, they could be added with WYSIWYG editors with menus for selecting symbols and structures.
-% \cite{ref:topping1999using}
-% \cite{tool:wordformulaeditor}
-
-% \paragraph{Vector graphics editors}
-% Third, they can add annotations through vector graphics editing software.
-% \cite{tool:googleslides}
-% \cite{tool:inkscape}
-% \cite{tool:mathcha}
-% \cite{tool:powerpoint}
-% \cite{tool:keynote}
-% (And through slides-based editing applications)
-% \cite{ref:alcock2011eproofs}
-% Some of these tools (Mathcha, Keynote) allow writing LaTeX for formulas, and then adding annotations on top of them with typical drawing tools. To our knowledge, these tools do not support the ability to transform formulas into vector graphics. Authors have, in the past, converted them to vector graphics themselves using tools like CodeCogs.
-% \cite{tool:codecogs}
-
-% \paragraph{Sketching tools}
-% Fourth, people can sketch formulas in more general-purpose drawing applications.
-% \cite{ref:laviola2006mathpad2}
-% \cite{ref:zeleznik2010hands}
-% \cite{ref:leitner2010nice}
-% These formulas can be linked to complementary expressions and sketches.
-% \cite{ref:laviola2006mathpad2}
-% \cite{ref:saquib2021constructing}
-% They can also interact with gestures.
-% \cite{ref:zeleznik2010hands}
-% \cite{ref:weitnauer2016graspable}
-% \cite{ref:mendes2014structure}
-% (Visual processing of formulas is a technique that has been around for some time)
-% \cite{ref:ma2021latexify}
-
-% \paragraph{Automation}
-% Finally, augmentations can be produced automatically.
-% \cite{ref:head2021augmenting}
-
-% \subsection{Tools for augmenting texts}
-
-% \paragraph{Repetitive text editing}.
-% LaTeX provides a macro feature.
-% \cite{ref:toomim2004managing}
-% For instance, Textlets supports more rapid iteration around terms used in a text.
-% \cite{ref:han2020textlets}
-% \cite{ref:miltner2019fly}
-% \cite{ref:ni2021recode}
-% We opt for the CSS approach of defining "selectors"; given that our hope is to preserve the original formula in the original markup without fragmenting it, this format allows us to separate out the style specification from the underlying formula specification.
-
-% \paragraph{Diagramming}.
-% We draw inspiration from a few directions of research in the design of our toolkit.
-% First are tools that support diagramming.
-% We are interested in developing lightweight languages (like BlueFish or ChartAccent) for formulas.
-% Our comparisons in this paper are to prior typesetting tools. We envision that the development of grammars that work well as languages could serve as a good foundation for making augmentations in the other kinds of tools.
-% \cite{ref:ye2020penrose}
-% \cite{ref:pollock2022bluefish}
-% \cite{ref:ge2020canis}
-% % D3-annotation
-% We are interested in separating out style code and substance code (like Penrose).
-
-% \paragraph{Making texts interactive}.
-% \cite{tool:victortangle}
-% \cite{ref:litt2022potluck}
-% \cite{ref:dragicevic2019increasing}
-% \cite{ref:conlen2018idyll}
-
-% \andrew{One of the ways in which we can differentiate is in stating that we are trying to conduct user-centered research and evaluations to assess the usability of these markup languages (I think a lot of this prior work has not done so, and I think it is really important).}

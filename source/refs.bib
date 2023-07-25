@@ -1,3 +1,60 @@
+@preamble{"
+\def\articleno#1{Article #1}
+\def\paperno#1{Paper #1}
+\def\toappear{To appear}
+\def\eatnexttoken#1{} 
+\def\pubmit{The MIT Press}
+\def\pubieee{IEEE}
+\def\pubacm{ACM}
+\def\pubwiley{John Wiley \& Sons, Ltd.}
+\def\pubspringer{Springer}
+\def\pubelsevier{Elsevier}
+\def\pubmorgankaufmann{Morgan Kaufmann}
+\def\pubemerald{Emerald Group Publishing Limited}
+\def\journalspae{Software---Practice and Experience}
+\def\journalsoftware{IEEE Software}
+\def\journalcacm{Communications of the ACM}
+\def\journaljvlc{Journal of Visual Languages and Computing}
+\def\journalmms{International Journal of Man-Machine Studies}
+\def\journaltosem{ACM Transactions on Software Engineering and Methodology}
+\def\journaltse{IEEE Transactions on Software Engineering}
+\def\journaltochi{ACM Transactions on Computer-Human Interaction}
+\def\journalsigplan{ACM SIGPLAN Notices}
+\def\journaltog{ACM Transactions on Graphics}
+\def\journaltvcg{ACM Transactions of Visualization and Computer Graphics}
+\def\confinteract{Proceedings of the International Conference on Human-Computer Interaction}
+\def\confoopsla{Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications}
+\def\confpldi{Proceedings of the Conference on Programming Language Design and Implementation}
+\def\confcscw{Proceedings of the Conference on Computer-Supported Cooperative Work and Social Computing}
+\def\confpopl{Proceedings of SIGPLAN Symposium on Principles of Programming Languages}
+\def\conficsme{Proceedings of the International Conference on Software Maintenance and Evolution}
+\def\conffsesymposium{Proceedings of the International Symposium on Foundations of Software Engineering}
+\def\conffsemeeting{Proceedings of the Joint Meeting on Foundations of Software Engineering}
+\def\conficsm{Proceedings of the International Conference on Software Maintenance}
+\def\confcgit{Proceedings of the International Conference on Computer Graphics and Interactive Techniques}
+\def\confaaai{Proceedings of the AAAI Conference on Artificial Intelligence}
+\def\confchi{Proceedings of the CHI Conference on Human Factors in Computing Systems}
+\def\confemnlp{Proceedings of the Conference on Empirical Methods in Natural Language Processing}
+\def\confiui{Proceedings of the International Conference on Intelligent User Interfaces}
+\def\confuist{Proceedings of the Symposium on User Interface Software and Technology}
+\def\confase{Proceedings of the International Conference on Automated Software Engineering}
+\def\confissta{Proceedings of the International Symposium on Software Testing and Analysis}
+\def\conffase{Proceedings of the International Conference on Fundamental Approaches to Software Engineering}
+\def\conficpc{Proceedings of the International Conference on Program Comprehension}
+\def\conficse{Proceedings of the International Conference on Software Engineering}
+\def\confchase{Proceedings of the International Workshop on Cooperative and Human Aspects of Software Engineering}
+\def\confacl{Proceedings of the Annual Meeting of the Association for Computational Linguistics}
+\def\confvlhcc{Proceedings of the Symposium on Visual Languages and Human-Centric Computing}
+\def\conflas{Proceedings of the Conference on Learning at Scale}
+\def\confisese{Proceedings of the International Symposium on Empirical Software Engineering}
+\def\confsigcse{Proceedings of the Technical Symposium on Computer Science Education}
+\def\confwcre{Proceedings of the Working Conference on Reverse Engineering}
+\def\confhatra{Proceedings the Workshop on Human Aspects of Types and Reasoning Assistants}
+\def\confonward{Proceedings the Symposium on New Ideas in Programming and Reflections on Software}
+\def\confvldb{Proceedings of the International Conference on Very Large Data Bases}
+"}
+
+% seems unused
 @manual{CSS,
   title        = {Descriptions of all CSS specifications},
   author       = {Cascading Style Sheets working group},
@@ -7,166 +64,143 @@
   year         = {2021}
 }
 
-@misc{MarkdownIt,
-  author       = {Open Source Contributors},
-  title        = {markdown-it},
-  howpublished = {https://github.com/markdown-it/markdown-it}
+@manual{MarkdownIt,
+  author = {Open-source contributors},
+  title = {markdown-it},
+  url = {https://github.com/markdown-it/markdown-it},
+  lastaccessed = {July 22, 2023}
+
 }
 
-@misc{jupyterlab-katex,
+% zed pls check this`
+@manual{jupyterlab-katex,
   author       = {Project Jupyter},
-  title        = {jupyterlab-katex},
-  howpublished = {https://github.com/jupyterlab/jupyter-renderers}
+  title        = {jupyter-renderers},
+  url = {https://github.com/jupyterlab/jupyter-renderers},
+  lastaccessed = {July 22, 2023}
 }
 
-@misc{UnixMan,
+@manual{UnixMan,
   author       = {Bell Labs},
   title        = {Unix Programmer's Manual},
-  year         = {1971},
-  howpublished = {https://www.bell-labs.com/usr/dmr/www/1stEdman.html},
-  url          = {https://www.bell-labs.com/usr/dmr/www/man71.pdf}
+  url          = {https://www.bell-labs.com/usr/dmr/www/man71.pdf},
+    lastaccessed = {July 22, 2023}
 }
 
-@misc{Peggy,
-  author       = {Majda, Hildebrand et Al. (Open Source Contributors)},
+@manual{Peggy,
+  author       = {David Majda, Joe Hildebrand, and open-source contributors},
   title        = {Peggy},
-  year         = {2022},
-  howpublished = {https://github.com/peggyjs/peggy},
-  url          = {https://peggyjs.org/index.html}
+  url          = {https://peggyjs.org/index.html},
+    lastaccessed = {July 22, 2023}
 }
 
-@misc{Labella,
-  author       = {Wongsuphasawat et Al. (Open Source Contributors)},
-  title        = {Labella.js},
-  year         = {2015},
-  howpublished = {https://github.com/twitter/labella.js},
-  url          = {https://twitter.github.io/labella.js/}
-}
-
-@misc{MyST,
-  author       = {Open Source Contributors},
-  title        = {MyST},
-  year         = {2022},
-  howpublished = {https://github.com/executablebooks/MyST-Parser},
-  url          = {https://myst-parser.readthedocs.io/en/latest/}
-}
-
-@inproceedings{MathComm,
-  author    = {Dragunov, Anton N. and Herlocker, Jonathan L.},
-  title     = {Designing Intelligent and Dynamic Interfaces for Communicating Mathematics},
-  year      = {2003},
-  isbn      = {1581135866},
-  publisher = {Association for Computing Machinery},
-  address   = {New York, NY, USA},
-  url       = {https://doi-org.proxy.library.upenn.edu/10.1145/604045.604085},
-  doi       = {10.1145/604045.604085},
-  abstract  = {Current approaches to presentation of mathematics (on paper or in electronic format) have usability drawbacks that make learning and appreciation of mathematics challenging and often frustrating. We propose a development of a software user toolkit aimed to facilitate the creation of highly usable and effective presentations of mathematical ideas. In this paper we identify three problems which readers of math documents usually experience, and give a vision of how we might address those problems by designing a more interactive and intelligent interface},
-  booktitle = {Proceedings of the 8th International Conference on Intelligent User Interfaces},
-  pages     = {236–238},
-  numpages  = {3},
-  keywords  = {math visualization, dynamic user interface, usability},
-  location  = {Miami, Florida, USA},
-  series    = {IUI '03}
-}
 
 @article{LmmR,
   title={An introduction to linear mixed-effects modeling in R},
-  author={Brown, Violet A},
+  author={Brown, Violet A.},
   journal={Advances in Methods and Practices in Psychological Science},
   volume={4},
   number={1},
-  pages={2515245920960351},
   year={2021},
-  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+  publisher={SAGE Publications}
 }
 
+
 @article{Satterthwaite,
- ISSN = {00994987},
- URL = {http://www.jstor.org/stable/3002019},
- author = {F. E. Satterthwaite},
+ author = {Satterthwaite, F. E.},
  journal = {Biometrics Bulletin},
  number = {6},
  pages = {110--114},
- publisher = {[International Biometric Society, Wiley]},
+ publisher = {\pubwiley},
  title = {An Approximate Distribution of Estimates of Variance Components},
- urldate = {2023-03-29},
  volume = {2},
  year = {1946}
 }
 
-@misc{ref:murad2020navierstokes,
-  title        = "Derivation of the Navier-Stokes Equations",
-  author       = "Jousef Murad",
-  howpublished = "\url{https://www.youtube.com/watch?v=zWdnf3Uh1RE}",
-  note = {Jousef Murad | Deep Dive},
-  year         = 2020
+
+@online{ref:murad2020navierstokes,
+  title        = {Derivation of the Navier-Stokes Equations},
+  author       = {Murad, Jousef},
+  url = {https://www.youtube.com/watch?v=zWdnf3Uh1RE},
+  lastaccessed = {July 22, 2023}
 }
 
+
 @article{Holm,
- ISSN = {03036898, 14679469},
- URL = {http://www.jstor.org/stable/4615733},
- abstract = {This paper presents a simple and widely applicable multiple test procedure of the sequentially rejective type, i.e. hypotheses are rejected one at a time until no further rejections can be done. It is shown that the test has a prescribed level of significance protection against error of the first kind for any combination of true hypotheses. The power properties of the test and a number of possible applications are also discussed.},
  author = {Sture Holm},
  journal = {Scandinavian Journal of Statistics},
  number = {2},
  pages = {65--70},
- publisher = {[Board of the Foundation of the Scandinavian Journal of Statistics, Wiley]},
+ publisher = {\pubwiley},
  title = {A Simple Sequentially Rejective Multiple Test Procedure},
- urldate = {2023-03-29},
  volume = {6},
  year = {1979}
 }
 
+
 @article{Wilcoxon,
- ISSN = {00994987},
- URL = {http://www.jstor.org/stable/3001968},
  author = {Frank Wilcoxon},
  journal = {Biometrics Bulletin},
  number = {6},
  pages = {80--83},
- publisher = {[International Biometric Society, Wiley]},
+ publisher = {\pubwiley},
  title = {Individual Comparisons by Ranking Methods},
- urldate = {2023-03-29},
  volume = {1},
  year = {1945}
 }
 
+
 @book{think-aloud,
-  title={Using the" thinking-aloud" method in cognitive interface design},
+  title={Using the ``thinking-aloud'' method in cognitive interface design},
   author={Lewis, Clayton},
   year={1982},
   publisher={IBM TJ Watson Research Center Yorktown Heights, NY}
 }
 
+
+
 @article{fisher,
-  title={On the Interpretation of {$\chi^2$} from Contingency Tables, and the Calculation of P},
-  DOI={10.2307/2340521}, abstractNote={n/a}, author={Fisher, R. A.}, year={1922}, month={Jan}
+  title={On the interpretation of $\chi$2 from contingency tables, and the calculation of P},
+  author={Fisher, Ronald A.},
+  journal={Journal of the royal statistical society},
+  volume={85},
+  number={1},
+  pages={87--94},
+  year={1922},
+  publisher={JSTOR}
 }
 
-@misc{tool:overleaf,
+
+@online{tool:overleaf,
   author       = {Digital Science UK Ltd.},
   title        = {Overleaf},
-  howpublished = {https://www.overleaf.com/}
+  url = {https://www.overleaf.com/},
+  lastaccessed = {July 22, 2023}
 }
+
 
 @manual{tool:svg,
   author       = {W3C},
   title        = {SVG},
-  howpublished = {https://www.w3.org/TR/SVG2/}
+  url = {https://www.w3.org/TR/SVG2/},
+  lastaccessed = {July 22, 2023}
 }
 
-@article{W4,
-  author       = "Kalid Azad",
-  note = {Better Explained},
-  howpublished = "\url{https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform}",
-  lastaccessed = "2023"
+
+@online{W4,
+  title = {An Interactive Guide To The Fourier Transform},
+  author = {Kalid Azad},
+  url = {https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform},
+  lastaccessed = {July 25, 2023}
 }
 
-@misc{mohammed2020continuous,
-      title={Continuous Prefetch for Interactive Data Applications}, 
-      author={Haneen Mohammed and Ziyun Wei and Eugene Wu and Ravi Netravali},
-      year={2020},
-      eprint={2007.07858},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB}
+@inproceedings{mohammed2020continuous,
+  title = {Continuous Prefetch for Interactive Data Applications},
+  author = {Mohammed, Haneen and Wei, Ziyun and Wu, Eugene and Netravali, Ravi},
+  year = {2020},
+  issue_date = {August 2020},
+  booktitle = {\confvldb},
+  publisher = {VLDB Endowment},
+  volume = {13},
+  number = {12},
 }
