@@ -68,7 +68,7 @@
   \def\journaltse{IEEE Transactions on Software Engineering}
   \def\journaltochi{ACM Transactions on Computer-Human Interaction}
   \def\journalsigplan{ACM SIGPLAN Notices} \def\journaltog{ACM Transactions on
-  Graphics} \def\journaltvcg{ACM Transactions of Visualization and Computer
+  Graphics} \def\journaltvcg{IEEE Transactions of Visualization and Computer
   Graphics} \def\confinteract{Proceedings of the International Conference on
   Human-Computer Interaction} \def\confoopsla{Proceedings of the Conference on
   Object-Oriented Programming Systems, Languages, and Applications}
@@ -105,6 +105,59 @@
   \def\confsigcse{Proceedings of the Technical Symposium on Computer Science
   Education} \def\confwcre{Proceedings of the Working Conference on Reverse
   Engineering} \def\confhatra{Proceedings the Workshop on Human Aspects of
+  Types and Reasoning Assistants} \def\confonward{Proceedings the Symposium on
+  New Ideas in Programming and Reflections on Software}
+  \def\confvldb{Proceedings of the International Conference on Very Large Data
+  Bases}  \def\articleno#1{Article #1} \def\paperno#1{Paper #1}
+  \def\toappear{To appear} \def\eatnexttoken#1{} \def\pubmit{The MIT Press}
+  \def\pubieee{IEEE} \def\pubacm{ACM} \def\pubwiley{John Wiley \& Sons, Ltd.}
+  \def\pubspringer{Springer} \def\pubelsevier{Elsevier}
+  \def\pubmorgankaufmann{Morgan Kaufmann} \def\pubemerald{Emerald Group
+  Publishing Limited} \def\journalspae{Software---Practice and Experience}
+  \def\journalsoftware{IEEE Software} \def\journalcacm{Communications of the
+  ACM} \def\journaljvlc{Journal of Visual Languages and Computing}
+  \def\journalmms{International Journal of Man-Machine Studies}
+  \def\journaltosem{ACM Transactions on Software Engineering and Methodology}
+  \def\journaltse{IEEE Transactions on Software Engineering}
+  \def\journaltochi{ACM Transactions on Computer-Human Interaction}
+  \def\journalsigplan{ACM SIGPLAN Notices} \def\journaltog{ACM Transactions on
+  Graphics} \def\journaltvcg{IEEE Transactions of Visualization and Computer
+  Graphics} \def\confinteract{Proceedings of the International Conference on
+  Human-Computer Interaction} \def\confoopsla{Proceedings of the Conference on
+  Object-Oriented Programming Systems, Languages, and Applications}
+  \def\confpldi{Proceedings of the Conference on Programming Language Design
+  and Implementation} \def\confcscw{Proceedings of the Conference on
+  Computer-Supported Cooperative Work and Social Computing}
+  \def\confpopl{Proceedings of SIGPLAN Symposium on Principles of Programming
+  Languages} \def\conficsme{Proceedings of the International Conference on
+  Software Maintenance and Evolution} \def\conffsesymposium{Proceedings of the
+  International Symposium on Foundations of Software Engineering}
+  \def\conffsemeeting{Proceedings of the Joint Meeting on Foundations of
+  Software Engineering} \def\conficsm{Proceedings of the International
+  Conference on Software Maintenance} \def\confcgit{Proceedings of the
+  International Conference on Computer Graphics and Interactive Techniques}
+  \def\confaaai{Proceedings of the AAAI Conference on Artificial Intelligence}
+  \def\confchi{Proceedings of the CHI Conference on Human Factors in Computing
+  Systems} \def\confemnlp{Proceedings of the Conference on Empirical Methods in
+  Natural Language Processing} \def\confiui{Proceedings of the International
+  Conference on Intelligent User Interfaces} \def\confuist{Proceedings of the
+  Symposium on User Interface Software and Technology} \def\confase{Proceedings
+  of the International Conference on Automated Software Engineering}
+  \def\confissta{Proceedings of the International Symposium on Software Testing
+  and Analysis} \def\conffase{Proceedings of the International Conference on
+  Fundamental Approaches to Software Engineering} \def\conficpc{Proceedings of
+  the International Conference on Program Comprehension}
+  \def\conficse{Proceedings of the International Conference on Software
+  Engineering} \def\confchase{Proceedings of the International Workshop on
+  Cooperative and Human Aspects of Software Engineering}
+  \def\confacl{Proceedings of the Annual Meeting of the Association for
+  Computational Linguistics} \def\confvlhcc{Proceedings of the Symposium on
+  Visual Languages and Human-Centric Computing} \def\conflas{Proceedings of the
+  Conference on Learning at Scale} \def\confisese{Proceedings of the
+  International Symposium on Empirical Software Engineering}
+  \def\confsigcse{Proceedings of the Technical Symposium on Computer Science
+  Education} \def\confwcre{Proceedings of the Working Conference on Reverse
+  Engineering} \def\confhatra{Proceedings of the Workshop on Human Aspects of
   Types and Reasoning Assistants} \def\confonward{Proceedings the Symposium on
   New Ideas in Programming and Reflections on Software}
   \def\confvldb{Proceedings of the International Conference on Very Large Data
@@ -160,21 +213,22 @@
   {and} \bibinfo{person}{Kenneth~R. Koedinger}.}
   \bibinfo{year}{2005}\natexlab{}.
 \newblock \showarticletitle{Evaluation of multimodal input for entering
-  mathematical equations on the computer}. In \bibinfo{booktitle}{\emph{CHI'05
-  Extended Abstracts on Human Factors in Computing Systems}}.
-  \bibinfo{publisher}{\pubacm}, \bibinfo{pages}{1184--1187}.
+  mathematical equations on the computer}. In
+  \bibinfo{booktitle}{\emph{\confchi}}. \bibinfo{publisher}{\pubacm},
+  \bibinfo{pages}{1184--1187}.
 \newblock
 
 
 \bibitem[Azad({[n.\,d.]})]%
         {W4}
 \bibfield{author}{\bibinfo{person}{Kalid Azad}.}
+\newblock \bibinfo{booktitle}{\emph{An Interactive Guide To The Fourier
+  Transform}}.
 \newblock
-  \bibinfo{howpublished}{\url{https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform}}.
-\newblock  (\bibinfo{year}{[n.\,d.]}).
-\newblock
-\newblock
-\shownote{Better Explained}.
+\urldef\tempurl%
+\url{https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform}
+\showURL{%
+Retrieved July 25, 2023 from \tempurl}
 
 
 \bibitem[Blackwell and Green(2003)]%
@@ -202,13 +256,13 @@
 
 \bibitem[Brown(2021)]%
         {LmmR}
-\bibfield{author}{\bibinfo{person}{Violet~A Brown}.}
+\bibfield{author}{\bibinfo{person}{Violet~A. Brown}.}
   \bibinfo{year}{2021}\natexlab{}.
 \newblock \showarticletitle{An introduction to linear mixed-effects modeling in
   R}.
 \newblock \bibinfo{journal}{\emph{Advances in Methods and Practices in
   Psychological Science}} \bibinfo{volume}{4}, \bibinfo{number}{1}
-  (\bibinfo{year}{2021}), \bibinfo{pages}{2515245920960351}.
+  (\bibinfo{year}{2021}).
 \newblock
 
 
@@ -242,17 +296,6 @@
 \newblock
 
 
-\bibitem[CodeCogs Equation Editor({[n.\,d.]})]%
-        {tool:codecogs}
-CodeCogs Equation Editor
-\newblock \bibinfo{booktitle}{\emph{CodeCogs Equation Editor}}.
-\newblock
-\urldef\tempurl%
-\url{https://editor.codecogs.com/}
-\showURL{%
-Retrieved July 7, 2023 from \tempurl}
-
-
 \bibitem[Conlen and Heer(2018)]%
         {ref:conlen2018idyll}
 \bibfield{author}{\bibinfo{person}{Matthew Conlen} {and}
@@ -264,33 +307,37 @@ Retrieved July 7, 2023 from \tempurl}
 \newblock
 
 
-\bibitem[Contributors({[n.\,d.]})]%
-        {MarkdownIt}
-\bibfield{author}{\bibinfo{person}{Open~Source Contributors}.}
-\newblock \bibinfo{title}{markdown-it}.
-\newblock \bibinfo{howpublished}{https://github.com/markdown-it/markdown-it}.
-\newblock
-
-
 \bibitem[Crichton(2022)]%
         {ref:crichton2021new}
 \bibfield{author}{\bibinfo{person}{Will Crichton}.}
   \bibinfo{year}{2022}\natexlab{}.
 \newblock \showarticletitle{A New Medium for Communicating Research on
-  Programming Languages}.
-\newblock  (\bibinfo{year}{2022}).
+  Programming Languages}. In \bibinfo{booktitle}{\emph{\confhatra}}.
+  \bibinfo{publisher}{\pubacm}.
 \newblock
 
 
 \bibitem[Curvenote({[n.\,d.]})]%
         {tool:curvenote}
-Curvenote
-\newblock \bibinfo{booktitle}{\emph{Equation {|} curvenote.dev}}.
+\bibfield{author}{\bibinfo{person}{Curvenote}.}
+\newblock \bibinfo{booktitle}{\emph{Equation}}.
 \newblock
 \urldef\tempurl%
 \url{https://curvenote.dev/article/equation}
 \showURL{%
 Retrieved July 12, 2023 from \tempurl}
+
+
+\bibitem[David~Majda and open-source contributors({[n.\,d.]})]%
+        {Peggy}
+\bibfield{author}{\bibinfo{person}{Joe~Hildebrand David~Majda} {and}
+  \bibinfo{person}{open-source contributors}.}
+\newblock \bibinfo{booktitle}{\emph{Peggy}}.
+\newblock
+\urldef\tempurl%
+\url{https://peggyjs.org/index.html}
+\showURL{%
+Retrieved July 22, 2023 from \tempurl}
 
 
 \bibitem[Dragicevic et~al\mbox{.}(2011)]%
@@ -311,6 +358,7 @@ Retrieved July 12, 2023 from \tempurl}
 \newblock \showarticletitle{Designing intelligent and dynamic interfaces for
   communicating mathematics}. In \bibinfo{booktitle}{\emph{Proceedings of the
   International Conference on Intelligent User Interfaces}}.
+  \bibinfo{publisher}{\pubacm}, \bibinfo{pages}{236–238}.
 \newblock
 
 
@@ -328,15 +376,14 @@ Retrieved September 16, 2020 from \tempurl}
 
 \bibitem[Fisher(1922)]%
         {fisher}
-\bibfield{author}{\bibinfo{person}{R.~A. Fisher}.}
+\bibfield{author}{\bibinfo{person}{Ronald~A. Fisher}.}
   \bibinfo{year}{1922}\natexlab{}.
-\newblock \showarticletitle{On the Interpretation of {$\chi^2$} from
-  Contingency Tables, and the Calculation of P}.
-\newblock  (\bibinfo{date}{Jan} \bibinfo{year}{1922}).
+\newblock \showarticletitle{On the interpretation of $\chi$2 from contingency
+  tables, and the calculation of P}.
+\newblock \bibinfo{journal}{\emph{Journal of the royal statistical society}}
+  \bibinfo{volume}{85}, \bibinfo{number}{1} (\bibinfo{year}{1922}),
+  \bibinfo{pages}{87--94}.
 \newblock
-\urldef\tempurl%
-\url{https://doi.org/10.2307/2340521}
-\showDOI{\tempurl}
 
 
 \bibitem[Froumentin({[n.\,d.]})]%
@@ -369,10 +416,10 @@ Retrieved September 16, 2020 from \tempurl}
   \bibinfo{person}{Michel Beaudouin-Lafon}.} \bibinfo{year}{2022}\natexlab{}.
 \newblock \showarticletitle{{i-LaTeX}: Manipulating Transitional
   Representations between LaTeX Code and Generated Documents}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2022 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{publisher}{\pubacm},
-  \bibinfo{pages}{1--16}.
+  \bibinfo{booktitle}{\emph{\confchi}}. \bibinfo{publisher}{\pubacm}.
 \newblock
+\newblock
+\shownote{\paperno{554}}.
 
 
 \bibitem[Goldstone et~al\mbox{.}(2017)]%
@@ -389,15 +436,16 @@ Retrieved September 16, 2020 from \tempurl}
 \newblock
 
 
-\bibitem[Google Slides({[n.\,d.]})]%
+\bibitem[Google(2023)]%
         {tool:googleslides}
-Google Slides
+\bibfield{author}{\bibinfo{person}{Google}.} \bibinfo{year}{Retrieved {July 7,
+  2023}}\natexlab{}.
 \newblock \bibinfo{booktitle}{\emph{Google Slides}}.
 \newblock
 \urldef\tempurl%
 \url{https://slides.google.com}
 \showURL{%
-Retrieved July 7, 2023 from \tempurl}
+\tempurl}
 
 
 \bibitem[Han et~al\mbox{.}(2020)]%
@@ -406,10 +454,11 @@ Retrieved July 7, 2023 from \tempurl}
   Renom}, \bibinfo{person}{Wendy~E. Mackay}, {and} \bibinfo{person}{Michel
   Beaudouin-Lafon}.} \bibinfo{year}{2020}\natexlab{}.
 \newblock \showarticletitle{Textlets: supporting constraints and consistency in
-  text documents}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020 CHI
-  Conference on Human Factors in Computing Systems}}.
-  \bibinfo{publisher}{\pubacm}, \bibinfo{pages}{1--13}.
+  text documents}. In \bibinfo{booktitle}{\emph{\confchi}}.
+  \bibinfo{publisher}{\pubacm}.
 \newblock
+\newblock
+\shownote{\paperno{675}}.
 
 
 \bibitem[Harrison et~al\mbox{.}(2020)]%
@@ -433,8 +482,10 @@ Retrieved July 7, 2023 from \tempurl}
   \bibinfo{person}{Marti~A. Hearst}.} \bibinfo{year}{2021}\natexlab{}.
 \newblock \showarticletitle{Augmenting Scientific Papers with Just-in-Time,
   Position-Sensitive Definitions of Terms and Symbols}. In
-  \bibinfo{booktitle}{\emph{\confchi}}.
+  \bibinfo{booktitle}{\emph{\confchi}}. \bibinfo{publisher}{\pubacm}.
 \newblock
+\newblock
+\shownote{\paperno{413}}.
 
 
 \bibitem[Head et~al\mbox{.}(2022)]%
@@ -443,14 +494,10 @@ Retrieved July 7, 2023 from \tempurl}
   {and} \bibinfo{person}{Marti~A. Hearst}.} \bibinfo{year}{2022}\natexlab{}.
 \newblock \showarticletitle{Math Augmentation: How Authors Enhance the
   Readability of Formulas Using Novel Visual Design Practices}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2022 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{publisher}{\pubacm}, Article
-  \bibinfo{articleno}{491}, \bibinfo{numpages}{18}~pages.
+  \bibinfo{booktitle}{\emph{\confchi}}. \bibinfo{publisher}{\pubacm}.
 \newblock
-\showISBNx{9781450391573}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3491102.3501932}
-\showDOI{\tempurl}
+\newblock
+\shownote{\paperno{491}}.
 
 
 \bibitem[Hohman et~al\mbox{.}(2019)]%
@@ -460,14 +507,8 @@ Retrieved July 7, 2023 from \tempurl}
   \bibinfo{person}{Steven~M. Drucker}.} \bibinfo{year}{2019}\natexlab{}.
 \newblock \showarticletitle{Gamut: A Design Probe to Understand How Data
   Scientists Understand Machine Learning Models}. In
-  \bibinfo{booktitle}{\emph{\confchi}} (Glasgow, Scotland Uk)
-  \emph{(\bibinfo{series}{CHI '19})}. \bibinfo{publisher}{\pubacm},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1–13}.
+  \bibinfo{booktitle}{\emph{\confchi}}. \bibinfo{publisher}{\pubacm}.
 \newblock
-\showISBNx{9781450359702}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3290605.3300809}
-\showDOI{\tempurl}
 \newblock
 \shownote{\paperno{579}}.
 
@@ -481,7 +522,7 @@ Retrieved July 7, 2023 from \tempurl}
 \urldef\tempurl%
 \url{https://github.com/fredhohman/awesome-mathematical-notation-design}
 \showURL{%
-\tempurl}
+Retrieved July 22, 2023 from \tempurl}
 
 
 \bibitem[Holm(1979)]%
@@ -494,22 +535,6 @@ Retrieved July 7, 2023 from \tempurl}
   \bibinfo{volume}{6}, \bibinfo{number}{2} (\bibinfo{year}{1979}),
   \bibinfo{pages}{65--70}.
 \newblock
-\showISSN{03036898, 14679469}
-\urldef\tempurl%
-\url{http://www.jstor.org/stable/4615733}
-\showURL{%
-\tempurl}
-
-
-\bibitem[Inkscape({[n.\,d.]})]%
-        {tool:inkscape}
-Inkscape
-\newblock \bibinfo{booktitle}{\emph{Inkscape}}.
-\newblock
-\urldef\tempurl%
-\url{https://inkscape.org/}
-\showURL{%
-Retrieved July 7, 2023 from \tempurl}
 
 
 \bibitem[John and other contributors({[n.\,d.]})]%
@@ -524,13 +549,16 @@ Retrieved July 7, 2023 from \tempurl}
 Retrieved July 6, 2023 from \tempurl}
 
 
-\bibitem[Jupyter({[n.\,d.]})]%
+\bibitem[Jupyter(2023)]%
         {jupyterlab-katex}
-\bibfield{author}{\bibinfo{person}{Project Jupyter}.}
-\newblock \bibinfo{title}{jupyterlab-katex}.
+\bibfield{author}{\bibinfo{person}{Project Jupyter}.} \bibinfo{year}{Retrieved
+  {July 22, 2023}}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{jupyter-renderers}}.
 \newblock
-  \bibinfo{howpublished}{https://github.com/jupyterlab/jupyter-renderers}.
-\newblock
+\urldef\tempurl%
+\url{https://github.com/jupyterlab/jupyter-renderers}
+\showURL{%
+\tempurl}
 
 
 \bibitem[Knauff and Nejasmic(2014)]%
@@ -553,39 +581,25 @@ Retrieved July 6, 2023 from \tempurl}
 \newblock
 
 
-\bibitem[Labella.js({[n.\,d.]})]%
-        {tool:labella}
-Labella.js
-\newblock \bibinfo{booktitle}{\emph{Labella.js}}.
-\newblock
-\urldef\tempurl%
-\url{https://twitter.github.io/labella.js/}
-\showURL{%
-Retrieved September 16, 2020 from \tempurl}
-
-
-\bibitem[Labs(1971)]%
+\bibitem[Labs({[n.\,d.]})]%
         {UnixMan}
 \bibfield{author}{\bibinfo{person}{Bell Labs}.}
-  \bibinfo{year}{1971}\natexlab{}.
-\newblock \bibinfo{title}{Unix Programmer's Manual}.
-\newblock
-  \bibinfo{howpublished}{https://www.bell-labs.com/usr/dmr/www/1stEdman.html}.
+\newblock \bibinfo{booktitle}{\emph{Unix Programmer's Manual}}.
 \newblock
 \urldef\tempurl%
 \url{https://www.bell-labs.com/usr/dmr/www/man71.pdf}
 \showURL{%
-\tempurl}
+Retrieved July 22, 2023 from \tempurl}
 
 
-\bibitem[LaViola and Zeleznik(2006)]%
+\bibitem[LaViola and Zeleznik(2004)]%
         {ref:laviola2006mathpad2}
 \bibfield{author}{\bibinfo{person}{Joseph~J. LaViola} {and}
-  \bibinfo{person}{Robert~C. Zeleznik}.} \bibinfo{year}{2006}\natexlab{}.
-\newblock \showarticletitle{Mathpad2: a system for the creation and exploration
-  of mathematical sketches}.
-\newblock In \bibinfo{booktitle}{\emph{ACM SIGGRAPH 2006 Courses}}.
-  \bibinfo{publisher}{\pubacm}, \bibinfo{pages}{33--es}.
+  \bibinfo{person}{Robert~C. Zeleznik}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{MathPad$^2$: A System for the Creation and
+  Exploration of Mathematical Sketches}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Graph.}} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{432–440}.
 \newblock
 
 
@@ -598,7 +612,7 @@ Retrieved September 16, 2020 from \tempurl}
   Bragdon}.} \bibinfo{year}{2010}\natexlab{}.
 \newblock \showarticletitle{{NiCE} Formula Editor}.
 \newblock In \bibinfo{booktitle}{\emph{ACM SIGGRAPH 2010 Talks}}.
-  \bibinfo{publisher}{\pubacm}, \bibinfo{pages}{1--1}.
+  \bibinfo{publisher}{\pubacm}.
 \newblock
 
 
@@ -606,7 +620,7 @@ Retrieved September 16, 2020 from \tempurl}
         {think-aloud}
 \bibfield{author}{\bibinfo{person}{Clayton Lewis}.}
   \bibinfo{year}{1982}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Using the" thinking-aloud" method in
+\newblock \bibinfo{booktitle}{\emph{Using the ``thinking-aloud'' method in
   cognitive interface design}}.
 \newblock \bibinfo{publisher}{IBM TJ Watson Research Center Yorktown Heights,
   NY}.
@@ -618,9 +632,10 @@ Retrieved September 16, 2020 from \tempurl}
 \bibfield{author}{\bibinfo{person}{Yong Li}, \bibinfo{person}{Shoaib Kamil},
   \bibinfo{person}{Alec Jacobson}, {and} \bibinfo{person}{Yotam Gingold}.}
   \bibinfo{year}{2022}\natexlab{}.
-\newblock \showarticletitle{HeartDown: Document Processor for Executable Linear
-  Algebra Papers}. In \bibinfo{booktitle}{\emph{SIGGRAPH Asia 2022 Conference
-  Papers}}. \bibinfo{pages}{1--8}.
+\newblock \showarticletitle{H{\ensuremath\varheartsuit}rtDown: Document
+  Processor for Executable Linear Algebra Papers}. In
+  \bibinfo{booktitle}{\emph{SIGGRAPH Asia 2022 Conference Papers}}. Article
+  \bibinfo{articleno}{51}.
 \newblock
 
 
@@ -641,9 +656,24 @@ Retrieved July 12, 2023 from \tempurl}
 \bibitem[Ltd.({[n.\,d.]})]%
         {tool:overleaf}
 \bibfield{author}{\bibinfo{person}{Digital Science~UK Ltd.}}
-\newblock \bibinfo{title}{Overleaf}.
-\newblock \bibinfo{howpublished}{https://www.overleaf.com/}.
+\newblock \bibinfo{booktitle}{\emph{Overleaf}}.
 \newblock
+\urldef\tempurl%
+\url{https://www.overleaf.com/}
+\showURL{%
+Retrieved July 22, 2023 from \tempurl}
+
+
+\bibitem[Ltd.(2023)]%
+        {tool:codecogs}
+\bibfield{author}{\bibinfo{person}{Zyba Ltd.}} \bibinfo{year}{Retrieved {July
+  7, 2023}}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{CodeCogs Equation Editor}}.
+\newblock
+\urldef\tempurl%
+\url{https://editor.codecogs.com/}
+\showURL{%
+\tempurl}
 
 
 \bibitem[Ma et~al\mbox{.}(2021)]%
@@ -653,9 +683,8 @@ Retrieved July 12, 2023 from \tempurl}
   \bibinfo{year}{2021}\natexlab{}.
 \newblock \showarticletitle{Latexify Math: Mathematical Formula Markup Revision
   to Assist Collaborative Editing in Math Q\&A Sites}.
-\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
-  Interaction}} \bibinfo{volume}{5}, \bibinfo{number}{CSCW2}
-  (\bibinfo{year}{2021}), \bibinfo{pages}{1--24}.
+\newblock \bibinfo{journal}{\emph{\confcscw}} \bibinfo{volume}{5},
+  \bibinfo{number}{CSCW2} (\bibinfo{year}{2021}).
 \newblock
 
 
@@ -669,19 +698,6 @@ Retrieved July 12, 2023 from \tempurl}
 \newblock
 
 
-\bibitem[Majda(2022)]%
-        {Peggy}
-\bibfield{author}{\bibinfo{person}{Hildebrand et Al. (Open Source~Contributors)
-  Majda}.} \bibinfo{year}{2022}\natexlab{}.
-\newblock \bibinfo{title}{Peggy}.
-\newblock \bibinfo{howpublished}{https://github.com/peggyjs/peggy}.
-\newblock
-\urldef\tempurl%
-\url{https://peggyjs.org/index.html}
-\showURL{%
-\tempurl}
-
-
 \bibitem[Marghetis et~al\mbox{.}(2016)]%
         {ref:marghetis2016mastering}
 \bibfield{author}{\bibinfo{person}{Tyler Marghetis}, \bibinfo{person}{David
@@ -690,20 +706,8 @@ Retrieved July 12, 2023 from \tempurl}
 \newblock \showarticletitle{Mastering algebra retrains the visual system to
   perceive hierarchical structure in equations}.
 \newblock \bibinfo{journal}{\emph{Cognitive research: principles and
-  implications}}  \bibinfo{volume}{1} (\bibinfo{year}{2016}),
-  \bibinfo{pages}{1--10}.
+  implications}}  \bibinfo{volume}{1} (\bibinfo{year}{2016}).
 \newblock
-
-
-\bibitem[Mathcha({[n.\,d.]})]%
-        {tool:mathcha}
-Mathcha
-\newblock \bibinfo{booktitle}{\emph{Mathcha}}.
-\newblock
-\urldef\tempurl%
-\url{https://www.mathcha.io/}
-\showURL{%
-Retrieved July 7, 2023 from \tempurl}
 
 
 \bibitem[Matthews(2019)]%
@@ -719,36 +723,38 @@ Retrieved July 7, 2023 from \tempurl}
 \bibitem[Mendes et~al\mbox{.}(2014)]%
         {ref:mendes2014structure}
 \bibfield{author}{\bibinfo{person}{Alexandra Mendes}, \bibinfo{person}{Roland
-  Backhouse}, {and} \bibinfo{person}{Joao~F. Ferreira}.}
+  Backhouse}, {and} \bibinfo{person}{Jo\~ao~F. Ferreira}.}
   \bibinfo{year}{2014}\natexlab{}.
 \newblock \showarticletitle{Structure editing of handwritten mathematics:
   Improving the computer support for the calculational method}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the Ninth ACM International
-  Conference on Interactive Tabletops and Surfaces}}.
-  \bibinfo{publisher}{\pubacm}, \bibinfo{pages}{139--148}.
+  \bibinfo{booktitle}{\emph{Proceedings of the ACM International Conference on
+  Interactive Tabletops and Surfaces}}. \bibinfo{publisher}{\pubacm},
+  \bibinfo{pages}{139--148}.
 \newblock
 
 
-\bibitem[Microsoft({[n.\,d.]})]%
+\bibitem[Microsoft(2023a)]%
+        {tool:powerpoint}
+\bibfield{author}{\bibinfo{person}{Microsoft}.} \bibinfo{year}{Retrieved {July
+  7, 2023}}\natexlab{a}.
+\newblock \bibinfo{booktitle}{\emph{PowerPoint}}.
+\newblock
+\urldef\tempurl%
+\url{https://microsoft.com/powerpoint}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Microsoft(2023b)]%
         {tool:wordformulaeditor}
-\bibfield{author}{\bibinfo{person}{Microsoft}.}
+\bibfield{author}{\bibinfo{person}{Microsoft}.} \bibinfo{year}{Retrieved {July
+  7, 2023}}\natexlab{b}.
 \newblock \bibinfo{booktitle}{\emph{Write an equation or formula}}.
 \newblock
 \urldef\tempurl%
 \url{https://support.microsoft.com/en-au/office/write-an-equation-or-formula-4f799df7-4ca4-4670-afd3-6135768b01d0}
 \showURL{%
-Retrieved July 7, 2023 from \tempurl}
-
-
-\bibitem[Microsoft PowerPoint({[n.\,d.]})]%
-        {tool:powerpoint}
-Microsoft PowerPoint
-\newblock \bibinfo{booktitle}{\emph{Microsoft PowerPoint}}.
-\newblock
-\urldef\tempurl%
-\url{https://microsoft.com/powerpoint}
-\showURL{%
-Retrieved July 7, 2023 from \tempurl}
+\tempurl}
 
 
 \bibitem[Miltner et~al\mbox{.}(2019)]%
@@ -761,10 +767,8 @@ Retrieved July 7, 2023 from \tempurl}
 \newblock \showarticletitle{On the Fly Synthesis of Edit Suggestions}. In
   \bibinfo{booktitle}{\emph{Proceedings of the SIGPLAN Conference on Systems,
   Programming, Languages, and Applications: Software for Humanity}}.
-  \bibinfo{publisher}{\pubacm}, \bibinfo{pages}{143:1--143:29}.
+  \bibinfo{publisher}{\pubacm}, Article \bibinfo{articleno}{143}.
 \newblock
-\newblock
-\shownote{\articleno{143}}.
 
 
 \bibitem[Misfeldt(2011)]%
@@ -782,23 +786,22 @@ Retrieved July 7, 2023 from \tempurl}
 \bibfield{author}{\bibinfo{person}{Haneen Mohammed}, \bibinfo{person}{Ziyun
   Wei}, \bibinfo{person}{Eugene Wu}, {and} \bibinfo{person}{Ravi Netravali}.}
   \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{Continuous Prefetch for Interactive Data
-  Applications}.
+\newblock \showarticletitle{Continuous Prefetch for Interactive Data
+  Applications}. In \bibinfo{booktitle}{\emph{\confvldb}},
+  Vol.~\bibinfo{volume}{13}. \bibinfo{publisher}{VLDB Endowment}.
 \newblock
-\newblock
-\showeprint[arxiv]{2007.07858}~[cs.DB]
 
 
-\bibitem[Murad(2020)]%
+\bibitem[Murad({[n.\,d.]})]%
         {ref:murad2020navierstokes}
 \bibfield{author}{\bibinfo{person}{Jousef Murad}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{Derivation of the Navier-Stokes Equations}.
+\newblock \bibinfo{booktitle}{\emph{Derivation of the Navier-Stokes
+  Equations}}.
 \newblock
-  \bibinfo{howpublished}{\url{https://www.youtube.com/watch?v=zWdnf3Uh1RE}}.
-\newblock
-\newblock
-\shownote{Jousef Murad | Deep Dive}.
+\urldef\tempurl%
+\url{https://www.youtube.com/watch?v=zWdnf3Uh1RE}
+\showURL{%
+Retrieved July 22, 2023 from \tempurl}
 
 
 \bibitem[Mysore et~al\mbox{.}(2023)]%
@@ -808,10 +811,22 @@ Retrieved July 7, 2023 from \tempurl}
   \bibinfo{person}{Andre Kenneth~Chase Randall}, {and} \bibinfo{person}{Narges
   Mahyar}.} \bibinfo{year}{2023}\natexlab{}.
 \newblock \showarticletitle{How Data Scientists Review the Scholarly
-  Literature}. In \bibinfo{booktitle}{\emph{Proceedings of the 2023 Conference
-  on Human Information Interaction and Retrieval}}.
-  \bibinfo{publisher}{\pubacm}, \bibinfo{pages}{137–152}.
+  Literature}. In \bibinfo{booktitle}{\emph{Proceedings of the Conference on
+  Human Information Interaction and Retrieval}}. \bibinfo{publisher}{\pubacm},
+  \bibinfo{pages}{137–152}.
 \newblock
+
+
+\bibitem[Nha(2023)]%
+        {tool:mathcha}
+\bibfield{author}{\bibinfo{person}{Bui~Duc Nha}.} \bibinfo{year}{Retrieved
+  {July 7, 2023}}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Mathcha}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.mathcha.io/}
+\showURL{%
+\tempurl}
 
 
 \bibitem[Ni et~al\mbox{.}(2021)]%
@@ -819,10 +834,9 @@ Retrieved July 7, 2023 from \tempurl}
 \bibfield{author}{\bibinfo{person}{Wode Ni}, \bibinfo{person}{Joshua Sunshine},
   \bibinfo{person}{Vu Le}, \bibinfo{person}{Sumit Gulwani}, {and}
   \bibinfo{person}{Titus Barik}.} \bibinfo{year}{2021}\natexlab{}.
-\newblock \showarticletitle{recode: A lightweight find-and-replace interaction
-  in the ide for transforming code by example}. In
-  \bibinfo{booktitle}{\emph{The 34th Annual ACM Symposium on User Interface
-  Software and Technology}}. \bibinfo{publisher}{\pubacm},
+\newblock \showarticletitle{\textsc{reCode}: A Lightweight Find-and-Replace
+  Interaction in the IDE for Transforming Code by Example}. In
+  \bibinfo{booktitle}{\emph{\confuist}}. \bibinfo{publisher}{\pubacm},
   \bibinfo{pages}{258--269}.
 \newblock
 
@@ -834,6 +848,20 @@ Retrieved July 7, 2023 from \tempurl}
 \newblock \bibinfo{title}{Bluefish: A Grammar of Discrete Diagrams}.
 \newblock
 \newblock
+\newblock
+\shownote{Master's thesis}.
+
+
+\bibitem[Project(2023)]%
+        {tool:latex}
+\bibfield{author}{\bibinfo{person}{The~\LaTeX{} Project}.}
+  \bibinfo{year}{Retrieved {July 7, 2023}}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{\LaTeX{}}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.latex-project.org}
+\showURL{%
+\tempurl}
 
 
 \bibitem[Rein et~al\mbox{.}(2018)]%
@@ -841,10 +869,10 @@ Retrieved July 7, 2023 from \tempurl}
 \bibfield{author}{\bibinfo{person}{Patrick Rein}, \bibinfo{person}{Stefan
   Ramson}, \bibinfo{person}{Jens Lincke}, \bibinfo{person}{Robert Hirschfeld},
   {and} \bibinfo{person}{Tobias Pape}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Exploratory and live, programming and coding}.
+\newblock \showarticletitle{Exploratory and Live, Programming and Coding}.
 \newblock \bibinfo{journal}{\emph{The Art, Science, and Engineering of
   Programming}} \bibinfo{volume}{3}, \bibinfo{number}{1}
-  (\bibinfo{year}{2018}), \bibinfo{pages}{1--1}.
+  (\bibinfo{year}{2018}).
 \newblock
 
 
@@ -859,19 +887,6 @@ Retrieved July 7, 2023 from \tempurl}
 Retrieved September 8, 2021 from \tempurl}
 
 
-\bibitem[Sanderson(2022)]%
-        {tool:manim}
-\bibfield{author}{\bibinfo{person}{Grant Sanderson}.}
-  \bibinfo{year}{2022}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Manim}}.
-\newblock Manim Community.
-\newblock
-\urldef\tempurl%
-\url{https://3b1b.github.io/manim/}
-\showURL{%
-\tempurl}
-
-
 \bibitem[Saquib et~al\mbox{.}(2021)]%
         {ref:saquib2021constructing}
 \bibfield{author}{\bibinfo{person}{Nazmus Saquib},
@@ -879,7 +894,8 @@ Retrieved September 8, 2021 from \tempurl}
   \bibinfo{person}{Gloria Mark}, {and} \bibinfo{person}{Deb Roy}.}
   \bibinfo{year}{2021}\natexlab{}.
 \newblock \showarticletitle{Constructing Embodied Algebra by Sketching}. In
-  \bibinfo{booktitle}{\emph{\confchi}}.
+  \bibinfo{booktitle}{\emph{\confchi}}. \bibinfo{publisher}{\pubacm}, Article
+  \bibinfo{articleno}{428}.
 \newblock
 
 
@@ -892,11 +908,6 @@ Retrieved September 8, 2021 from \tempurl}
 \newblock \bibinfo{journal}{\emph{Biometrics Bulletin}} \bibinfo{volume}{2},
   \bibinfo{number}{6} (\bibinfo{year}{1946}), \bibinfo{pages}{110--114}.
 \newblock
-\showISSN{00994987}
-\urldef\tempurl%
-\url{http://www.jstor.org/stable/3002019}
-\showURL{%
-\tempurl}
 
 
 \bibitem[Satyanarayan et~al\mbox{.}(2017)]%
@@ -904,16 +915,16 @@ Retrieved September 8, 2021 from \tempurl}
 \bibfield{author}{\bibinfo{person}{Arvind Satyanarayan},
   \bibinfo{person}{Dominik Moritz}, \bibinfo{person}{Kanit Wongsuphasawat},
   {and} \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{Vega-Lite: A Grammar of Interactive Graphics}. In
-  \bibinfo{booktitle}{\emph{\journaltvcg}}, Vol.~\bibinfo{volume}{23}.
+\newblock \showarticletitle{Vega-Lite: A Grammar of Interactive Graphics}.
+\newblock \bibinfo{journal}{\emph{\journaltvcg}}  \bibinfo{volume}{23},
   \bibinfo{pages}{341--350}.
 \newblock
 
 
-\bibitem[Shepherd and Van De~Sande(2014)]%
+\bibitem[Shepherd and van~de Sande(2014)]%
         {ref:shepherd2014reading}
 \bibfield{author}{\bibinfo{person}{Mary~D. Shepherd} {and}
-  \bibinfo{person}{Carla~C. Van De~Sande}.} \bibinfo{year}{2014}\natexlab{}.
+  \bibinfo{person}{Carla~C. van~de Sande}.} \bibinfo{year}{2014}\natexlab{}.
 \newblock \showarticletitle{Reading mathematics for understanding---From novice
   to expert}.
 \newblock \bibinfo{journal}{\emph{The Journal of Mathematical Behavior}}
@@ -922,25 +933,51 @@ Retrieved September 8, 2021 from \tempurl}
 \newblock
 
 
+\bibitem[source contributors(2023b)]%
+        {MarkdownIt}
+\bibfield{author}{\bibinfo{person}{Open source contributors}.}
+  \bibinfo{year}{Retrieved {July 22, 2023}}\natexlab{b}.
+\newblock \bibinfo{booktitle}{\emph{markdown-it}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/markdown-it/markdown-it}
+\showURL{%
+\tempurl}
+
+
+\bibitem[source contributors(2023a)]%
+        {tool:inkscape}
+\bibfield{author}{\bibinfo{person}{Open source contributors}.}
+  \bibinfo{year}{Retrieved {July 7, 2023}}\natexlab{a}.
+\newblock \bibinfo{booktitle}{\emph{Inkscape}}.
+\newblock
+\urldef\tempurl%
+\url{https://inkscape.org/}
+\showURL{%
+\tempurl}
+
+
 \bibitem[Tanimoto(1990)]%
         {ref:tanimoto1990viva}
 \bibfield{author}{\bibinfo{person}{Steven~L. Tanimoto}.}
   \bibinfo{year}{1990}\natexlab{}.
 \newblock \showarticletitle{VIVA: A Visual Language for Image Processing}.
-\newblock  \bibinfo{volume}{1}, \bibinfo{number}{2} (\bibinfo{year}{1990}),
-  \bibinfo{pages}{127--139}.
+\newblock \bibinfo{journal}{\emph{\journaljvlc}} \bibinfo{volume}{1},
+  \bibinfo{number}{2} (\bibinfo{year}{1990}), \bibinfo{pages}{127--139}.
 \newblock
 
 
-\bibitem[The \LaTeX{} Project({[n.\,d.]})]%
-        {tool:latex}
-The \LaTeX{} Project
-\newblock \bibinfo{booktitle}{\emph{The \LaTeX{} Project}}.
+\bibitem[{The Manim Community Developers}(2023)]%
+        {tool:manim}
+\bibfield{author}{\bibinfo{person}{{The Manim Community Developers}}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Manim – Mathematical Animation
+  Framework}}}.
 \newblock
 \urldef\tempurl%
-\url{https://www.latex-project.org}
+\url{https://www.manim.community/}
 \showURL{%
-Retrieved July 7, 2023 from \tempurl}
+\tempurl}
 
 
 \bibitem[Toomim et~al\mbox{.}(2004)]%
@@ -981,6 +1018,10 @@ Retrieved August 15, 2021 from \tempurl}
 \bibfield{author}{\bibinfo{person}{W3C}.}
 \newblock \bibinfo{booktitle}{\emph{SVG}}.
 \newblock
+\urldef\tempurl%
+\url{https://www.w3.org/TR/SVG2/}
+\showURL{%
+Retrieved July 22, 2023 from \tempurl}
 
 
 \bibitem[Weitnauer et~al\mbox{.}(2016)]%
@@ -989,9 +1030,9 @@ Retrieved August 15, 2021 from \tempurl}
   Landy}, {and} \bibinfo{person}{Erin Ottmar}.}
   \bibinfo{year}{2016}\natexlab{}.
 \newblock \showarticletitle{Graspable {Math}: Towards dynamic algebra notations
-  that support learners better than paper}. In \bibinfo{booktitle}{\emph{2016
-  Future Technologies Conference (FTC)}}. \bibinfo{publisher}{\pubieee},
-  \bibinfo{pages}{406--414}.
+  that support learners better than paper}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Future Technologies
+  Conference}}. \bibinfo{publisher}{\pubieee}, \bibinfo{pages}{406--414}.
 \newblock
 
 
@@ -1003,11 +1044,17 @@ Retrieved August 15, 2021 from \tempurl}
 \newblock \bibinfo{journal}{\emph{Biometrics Bulletin}} \bibinfo{volume}{1},
   \bibinfo{number}{6} (\bibinfo{year}{1945}), \bibinfo{pages}{80--83}.
 \newblock
-\showISSN{00994987}
+
+
+\bibitem[Wongsuphasawat({[n.\,d.]})]%
+        {tool:labella}
+\bibfield{author}{\bibinfo{person}{Krist Wongsuphasawat}.}
+\newblock \bibinfo{booktitle}{\emph{Labella.js}}.
+\newblock
 \urldef\tempurl%
-\url{http://www.jstor.org/stable/3001968}
+\url{https://twitter.github.io/labella.js/}
 \showURL{%
-\tempurl}
+Retrieved September 16, 2020 from \tempurl}
 
 
 \bibitem[Wongsuphasawat et~al\mbox{.}(2015)]%
@@ -1018,9 +1065,8 @@ Retrieved August 15, 2021 from \tempurl}
   \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2015}\natexlab{}.
 \newblock \showarticletitle{Voyager: Exploratory analysis via faceted browsing
   of visualization recommendations}.
-\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
-  computer graphics}} \bibinfo{volume}{22}, \bibinfo{number}{1}
-  (\bibinfo{year}{2015}), \bibinfo{pages}{649--658}.
+\newblock \bibinfo{journal}{\emph{\journaltvcg}}  \bibinfo{volume}{22},
+  \bibinfo{pages}{649--658}.
 \newblock
 
 
@@ -1033,8 +1079,8 @@ Retrieved August 15, 2021 from \tempurl}
   \bibinfo{year}{2020}\natexlab{}.
 \newblock \showarticletitle{Penrose: from mathematical notation to beautiful
   diagrams}.
-\newblock \bibinfo{journal}{\emph{\journaltog}}  \bibinfo{volume}{39}
-  (\bibinfo{year}{2020}), \bibinfo{pages}{144}.
+\newblock \bibinfo{journal}{\emph{\journaltog}}  \bibinfo{volume}{39}, Article
+  \bibinfo{articleno}{144} (\bibinfo{year}{2020}).
 \newblock
 
 
@@ -1044,7 +1090,7 @@ Retrieved August 15, 2021 from \tempurl}
   Paas}.} \bibinfo{year}{2015}\natexlab{}.
 \newblock \showarticletitle{Effects of Computer-Based Visual Representation on
   Mathematics Learning and Cognitive Load}.
-\newblock \bibinfo{journal}{\emph{J. Educ. Technol. Soc.}}
+\newblock \bibinfo{journal}{\emph{Educational Technology and Society}}
   \bibinfo{volume}{18} (\bibinfo{year}{2015}), \bibinfo{pages}{70--77}.
 \newblock
 

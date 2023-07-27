@@ -1,33 +1,27 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.1)  17 JUL 2023 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.7.26)  27 JUL 2023 15:52
 entering extended mode
  \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (./acmart.cls
-Document Class: acmart 2022/10/24 v1.88 Typesetting articles for the Associatio
-n for Computing Machinery
-(c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-
-(c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+**/home/wu000168/FFL/uist23-ffl/source/main.tex
+(/home/wu000168/FFL/uist23-ffl/source/main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-12-17> (./acmart.cls
+Document Class: acmart 2022/10/24 v1.88 Typesetting articles for the Association for Computing Machinery
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks16
 \XKV@tempa@toks=\toks17
-
-(c:/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex))
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count185
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(c:/texlive/2022/texmf-dist/tex/generic/xstring/xstring.sty
-(c:/texlive/2022/texmf-dist/tex/generic/xstring/xstring.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \integerpart=\count186
 \decimalpart=\count187
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
-)
-(c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package acmart Info: Not using screen mode on input line 76.
@@ -42,48 +36,54 @@ Package acmart Info: Not using timestamp mode on input line 153.
 Package acmart Info: Not using authordraft mode on input line 163.
 Class acmart Info: Using format sigconf, number 4 on input line 178.
 Class acmart Info: Using fontsize 9pt on input line 277.
-
-(c:/texlive/2022/texmf-dist/tex/latex/amscls/amsart.cls
+ (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
 Document Class: amsart 2020/05/29 v2.20.6
-\linespacing=\dimen138
-\normalparindent=\dimen139
+\linespacing=\dimen140
+\normalparindent=\dimen141
 \normaltopskip=\skip47
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen140
-))
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\ex@=\dimen142
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen141
-)
-(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+\pmbraise@=\dimen143
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count188
 LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count189
 \leftroot@=\count190
 LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
 \classnum@=\count191
 \DOTSCASE@=\count192
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen142
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen144
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count193
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
 \c@MaxMatrixCols=\count194
 \dotsspace@=\muskip16
 \c@parentequation=\count195
@@ -93,26 +93,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \column@=\count198
 \maxfields@=\count199
 \andhelp@=\toks20
-\eqnshift@=\dimen143
-\alignsep@=\dimen144
-\tagshift@=\dimen145
-\tagwidth@=\dimen146
-\totwidth@=\dimen147
-\lineht@=\dimen148
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
 \@envbody=\toks21
 \multlinegap=\skip49
 \multlinetaggap=\skip50
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 397
-.
-
-(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 397.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -121,7 +118,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
 \copyins=\insert252
-\abstractbox=\box52
+\abstractbox=\box53
 \listisep=\skip51
 \c@part=\count266
 \c@section=\count267
@@ -133,7 +130,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \c@table=\count273
 \abovecaptionskip=\skip52
 \belowcaptionskip=\skip53
-\captionindent=\dimen149
+\captionindent=\dimen151
 \thm@style=\toks23
 \thm@bodyfont=\toks24
 \thm@headfont=\toks25
@@ -143,190 +140,156 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \thm@postskip=\skip55
 \thm@headsep=\skip56
 \dth@everypar=\toks28
-)
-(c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
-
-(c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+ (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count274
 )
 \MT@toks=\toks29
-\MT@tempbox=\box53
+\MT@tempbox=\box54
 \MT@count=\count275
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
-LaTeX Info: Redefining \leftprotrusion on input line 1028.
-LaTeX Info: Redefining \rightprotrusion on input line 1036.
-LaTeX Info: Redefining \textls on input line 1195.
-\MT@outer@kern=\dimen150
-LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
+LaTeX Info: Redefining \leftprotrusion on input line 1046.
+LaTeX Info: Redefining \rightprotrusion on input line 1056.
+LaTeX Info: Redefining \textls on input line 1234.
+\MT@outer@kern=\dimen152
+LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
 \MT@listname@count=\count276
-
-(c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
-
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 900.
 LaTeX Info: Redefining \lslig on input line 900.
 \MT@outer@space=\skip57
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
-))
-(c:/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen151
-\lightrulewidth=\dimen152
-\cmidrulewidth=\dimen153
-\belowrulesep=\dimen154
-\belowbottomsep=\dimen155
-\aboverulesep=\dimen156
-\abovetopsep=\dimen157
-\cmidrulesep=\dimen158
-\cmidrulekern=\dimen159
-\defaultaddspace=\dimen160
+\heavyrulewidth=\dimen153
+\lightrulewidth=\dimen154
+\cmidrulewidth=\dimen155
+\belowrulesep=\dimen156
+\belowbottomsep=\dimen157
+\aboverulesep=\dimen158
+\abovetopsep=\dimen159
+\cmidrulesep=\dimen160
+\cmidrulekern=\dimen161
+\defaultaddspace=\dimen162
 \@cmidla=\count277
 \@cmidlb=\count278
-\@aboverulesep=\dimen161
-\@belowrulesep=\dimen162
+\@aboverulesep=\dimen163
+\@belowrulesep=\dimen164
 \@thisruleclass=\count279
 \@lastruleclass=\count280
-\@thisrulewidth=\dimen163
-)
-(c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+\@thisrulewidth=\dimen165
+) (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-
-(c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-))
-(c:/texlive/2022/texmf-dist/tex/latex/totpages/totpages.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
 Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
-
-(c:/texlive/2022/texmf-dist/tex/latex/everyshi/everyshi.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty
 Package: everyshi 2020/11/18 v4.00 EveryShipout Package
-))
-(c:/texlive/2022/texmf-dist/tex/latex/environ/environ.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(c:/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-(c:/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
-)
-(c:/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip58
 \bibsep=\skip59
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count281
-)
-(c:/texlive/2022/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
 Package: hyperxmp 2020/11/22 v5.9 Store hyperref metadata in XMP format
 \hyxmp@aep@toks=\toks30
-
-(c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-
-(c:/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-(c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+ (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(c:/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)
-(c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+)) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(c:/texlive/2022/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
-)
-(c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(c:/texlive/2022/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
-)
-(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-))
-(c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
-
-(c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\@linkdim=\dimen164
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
-
-(c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+\c@section@level=\count282
+)
+\@linkdim=\dimen166
+\Hy@linkcounter=\count283
+\Hy@pagecounter=\count284
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count284
-
-(c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count285
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4018
-.
-Package hyperref Info: Option `unicode' set `true' on input line 4018.
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4045.
+Package hyperref Info: Option `unicode' set `true' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count285
-
-(c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count286
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen165
-
-(c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen167
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count286
-\Field@Width=\dimen166
-\Fld@charsize=\dimen167
+\Fld@menulength=\count287
+\Field@Width=\dimen168
+\Fld@charsize=\dimen169
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -334,131 +297,103 @@ Package hyperref Info: backreferencing OFF on input line 6042.
 Package hyperref Info: Link coloring OFF on input line 6047.
 Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
-LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
-
-(c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count288
+\c@Item=\count289
+\c@Hfootnote=\count290
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
-
-(c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count290
-\c@bookmark@seq@number=\count291
-
-(c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+\Fld@listcount=\count291
+\c@bookmark@seq@number=\count292
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip60
-)
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen168
-\Gin@req@width=\dimen169
-)
-(c:/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
-
-(c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-)
-(c:/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count292
-\Gm@cntv=\count293
-\c@Gm@tempcnt=\count294
-\Gm@bindingoffset=\dimen170
-\Gm@wd@mp=\dimen171
-\Gm@odd@mp=\dimen172
-\Gm@even@mp=\dimen173
-\Gm@layoutwidth=\dimen174
-\Gm@layoutheight=\dimen175
-\Gm@layouthoffset=\dimen176
-\Gm@layoutvoffset=\dimen177
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen172
+\Gm@wd@mp=\dimen173
+\Gm@odd@mp=\dimen174
+\Gm@even@mp=\dimen175
+\Gm@layoutwidth=\dimen176
+\Gm@layoutheight=\dimen177
+\Gm@layouthoffset=\dimen178
+\Gm@layoutvoffset=\dimen179
 \Gm@dimlist=\toks31
-)
-(c:/texlive/2022/texmf-dist/tex/latex/ncctools/manyfoot.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/ncctools/manyfoot.sty
 Package: manyfoot 2019/08/03 v1.11 Many Footnote Levels Package (NCC)
-
-(c:/texlive/2022/texmf-dist/tex/latex/ncctools/nccfoots.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccfoots.sty
 Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 )
-\MFL@columnwidth=\dimen178
+\MFL@columnwidth=\dimen180
 )
 \footinsauthorsaddresses=\insert251
-\c@footnoteauthorsaddresses=\count295
+\c@footnoteauthorsaddresses=\count296
 \footinscopyrightpermission=\insert250
-\c@footnotecopyrightpermission=\count296
-
-(c:/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
-(c:/texlive/2022/texmf-dist/tex/latex/cmap/cmap.sty
+\c@footnotecopyrightpermission=\count297
+ (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
 Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
-)
-(c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-<<t1.cmap>>)
-(c:/texlive/2022/texmf-dist/tex/latex/libertine/libertine.sty
-Package: libertine 2020/03/26 (Bob Tennent) Supports Libertine and Biolinum fon
-ts for all LaTeX engines.
-
-(c:/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+<<t1.cmap>>) (/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+Package: libertine 2022/09/12 (Bob Tennent) Supports Libertine and Biolinum fonts for all LaTeX engines.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(c:/texlive/2022/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -471,27 +406,20 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 )
-LaTeX Info: Redefining \oldstylenums on input line 484.
-
-(c:/texlive/2022/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
-(c:/texlive/2022/texmf-dist/tex/latex/inconsolata/zi4.sty
+LaTeX Info: Redefining \oldstylenums on input line 483.
+ (/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex)) (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
 Package: zi4 2019/05/17 v1.12
-
-`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-\zifour@ocount=\count297
-)
-(c:/texlive/2022/texmf-dist/tex/latex/newtx/newtxmath.sty
+ `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+\zifour@ocount=\count298
+) (/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2022/01/16 v1.71
-
-`newtxmath' v1.71, 2022/01/16 Math macros based originally on txfonts (msharpe)
-(c:/texlive/2022/texmf-dist/tex/latex/oberdiek/centernot.sty
+ `newtxmath' v1.71, 2022/01/16 Math macros based originally on txfonts (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count298
-
-(c:/texlive/2022/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count299
-\tx@IsAlNum=\count300
+\tx@cntz=\count299
+ (/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count300
+\tx@IsAlNum=\count301
 \tx@tA=\toks32
 \tx@tB=\toks33
 \tx@su=\read2
@@ -499,28 +427,21 @@ Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 amsthm NOT loaded
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 376.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/LinuxLibertineT-TLF/m/n on input li
-ne 376.
+(Font)                  OT1/cmr/m/n --> OT1/LinuxLibertineT-TLF/m/n on input line 376.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/m/n on input l
-ine 376.
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/m/n on input line 376.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/LinuxLibertineT-TLF/m/n --> OT1/LinuxLibertineT-TLF
-/sb/n on input line 377.
+(Font)                  OT1/LinuxLibertineT-TLF/m/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 377.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 383.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/LinuxBiolinumT-TLF/m/n on input lin
-e 383.
+(Font)                  OT1/cmss/m/n --> T1/LinuxBiolinumT-TLF/m/n on input line 383.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/LinuxBiolinumT-TLF/m/n on input li
-ne 383.
+(Font)                  OT1/cmss/bx/n --> T1/LinuxBiolinumT-TLF/m/n on input line 383.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 384.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/LinuxLibertineT-TLF/m/it on input 
-line 384.
+(Font)                  OT1/cmr/m/it --> OT1/LinuxLibertineT-TLF/m/it on input line 384.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/LinuxLibertineT-TLF/m/it on input
- line 384.
+(Font)                  OT1/cmr/bx/it --> OT1/LinuxLibertineT-TLF/m/it on input line 384.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 385.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> T1/zi4/m/n on input line 385.
@@ -528,17 +449,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> T1/zi4/m/n on input line 385.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 387.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input 
-line 387.
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 387.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input 
-line 387.
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 387.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/LinuxLibertineT-TLF/m/it --> OT1/LinuxLibertineT-TL
-F/sb/it on input line 388.
+(Font)                  OT1/LinuxLibertineT-TLF/m/it --> OT1/LinuxLibertineT-TLF/sb/it on input line 388.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/LinuxBiolinumT-TLF/m/n --> T1/LinuxBiolinumT-TLF/b/n
- on input line 389.
+(Font)                  T1/LinuxBiolinumT-TLF/m/n --> T1/LinuxBiolinumT-TLF/b/n on input line 389.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/zi4/m/n --> T1/zi4/b/n on input line 390.
 LaTeX Font Info:    Redeclaring symbol font `letters' on input line 407.
@@ -575,20 +492,17 @@ Now handling font encoding LMX ...
 ... no UTF-8 mapping file for font encoding LMX
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 628.
 LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 6
-28.
+(Font)              `largesymbols' in the math version `normal' on input line 628.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 628.
 LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 628
-.
+(Font)              `largesymbols' in the math version `bold' on input line 628.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 628.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 629.
 \symlargesymbolsTXA=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
-
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 643.
 \tx@sbptoks=\toks34
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 866.
@@ -608,44 +522,40 @@ LaTeX Info: Redefining \Bbbk on input line 2810.
 LaTeX Info: Redefining \not on input line 2959.
 LaTeX Info: Redefining \textsquare on input line 2989.
 LaTeX Info: Redefining \openbox on input line 2991.
-) (c:/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
-
-(c:/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen179
-\captionmargin=\dimen180
-\caption@leftmargin=\dimen181
-\caption@rightmargin=\dimen182
-\caption@width=\dimen183
-\caption@indent=\dimen184
-\caption@parindent=\dimen185
-\caption@hangindent=\dimen186
+\caption@tempdima=\dimen181
+\captionmargin=\dimen182
+\caption@leftmargin=\dimen183
+\caption@rightmargin=\dimen184
+\caption@width=\dimen185
+\caption@indent=\dimen186
+\caption@parindent=\dimen187
+\caption@hangindent=\dimen188
 Package caption Info: AMS or SMF document class detected.
-
-(c:/texlive/2022/texmf-dist/tex/latex/caption/caption-ams-smf.sto
-File: caption-ams-smf.sto 2020/08/22 v2.0 Adaption of the caption package to th
-e AMS and SMF document classes (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-ams-smf.sto
+File: caption-ams-smf.sto 2020/08/22 v2.0 Adaption of the caption package to the AMS and SMF document classes (AR)
 ))
-\c@caption@flags=\count301
-\c@continuedfloat=\count302
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
 Package caption Info: hyperref package is loaded.
-)
-(c:/texlive/2022/texmf-dist/tex/latex/float/float.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count303
+\c@float@type=\count304
 \float@exts=\toks35
-\float@box=\box54
+\float@box=\box55
 \@float@everytoks=\toks36
-\@floatcapt=\box55
+\@floatcapt=\box56
 )
 \@float@every@sidebar=\toks37
-\c@sidebar=\count304
-\fulltextwidth=\dimen187
-\@ACM@labelwidth=\dimen188
+\c@sidebar=\count305
+\fulltextwidth=\dimen189
+\@ACM@labelwidth=\dimen190
 \listisep=\skip61
-\num@authorgroups=\count305
-\num@authors=\count306
+\num@authorgroups=\count306
+\num@authors=\count307
 \@ACM@badge@width=\skip62
 \@ACM@title@width=\skip63
 \@ACM@badge@skip=\skip64
@@ -653,22 +563,18 @@ Class acmart Info: Printing CCS on input line 1699.
 Class acmart Info: Printing bibformat on input line 1699.
 Class acmart Info: Suppressing folios on input line 1706.
 Class acmart Info: Setting authorsperrow to 0 on input line 1709.
-
-(c:/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
-
-Excluding comment 'comment') Excluding comment 'CCSXML'
-\c@@concepts=\count307
-\mktitle@bx=\box56
-\@ACM@acmcpbox=\box57
-\@ACM@commabox=\box58
-\author@bx=\box59
-\author@bx@wd=\dimen189
+ Excluding comment 'comment') Excluding comment 'CCSXML'
+\c@@concepts=\count308
+\mktitle@bx=\box57
+\@ACM@acmcpbox=\box58
+\@ACM@commabox=\box59
+\author@bx=\box60
+\author@bx@wd=\dimen191
 \author@bx@sep=\skip65
-
-(c:/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
-rs
+ (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip66
 \f@nch@O@elh=\skip67
 \f@nch@O@erh=\skip68
@@ -679,241 +585,203 @@ rs
 \f@nch@O@olf=\skip73
 \f@nch@O@orf=\skip74
 )
-\@folio@wd=\dimen190
-\@folio@ht=\dimen191
-\@folio@voffset=\dimen192
-
-Special comment 'acks'
-LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF 
-on input line 3530.
-
-(c:/texlive/2022/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd
-File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
-nuxLibertineT-TLF.
+\@folio@wd=\dimen192
+\@folio@ht=\dimen193
+\@folio@voffset=\dimen194
+ Special comment 'acks'
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF on input line 3530.
+ (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd
+File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 3530.
-)
-(c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(c:/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
-
-(c:/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count308
-\calc@Bcount=\count309
-\calc@Adimen=\dimen193
-\calc@Bdimen=\dimen194
+\calc@Acount=\count309
+\calc@Bcount=\count310
+\calc@Adimen=\dimen195
+\calc@Bdimen=\dimen196
 \calc@Askip=\skip75
 \calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count310
+\calc@Ccount=\count311
 \calc@Cskip=\skip77
-)
-(c:/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count311
-\l_MT_multwidth_dim=\dimen195
+\g_MT_multlinerow_int=\count312
+\l_MT_multwidth_dim=\dimen197
 \origjot=\skip78
-\l_MT_shortvdotswithinadjustabove_dim=\dimen196
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen197
-\l_MT_above_intertext_sep=\dimen198
-\l_MT_below_intertext_sep=\dimen199
-\l_MT_above_shortintertext_sep=\dimen256
-\l_MT_below_shortintertext_sep=\dimen257
-\xmathstrut@box=\box60
-\xmathstrut@dim=\dimen258
-)
-(c:/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+\l_MT_shortvdotswithinadjustabove_dim=\dimen198
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen199
+\l_MT_above_intertext_sep=\dimen256
+\l_MT_below_intertext_sep=\dimen257
+\l_MT_above_shortintertext_sep=\dimen258
+\l_MT_below_shortintertext_sep=\dimen259
+\xmathstrut@box=\box61
+\xmathstrut@dim=\dimen260
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-
-(c:/texlive/2022/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen259
-\ar@mcellbox=\box61
-\extrarowheight=\dimen260
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen261
+\ar@mcellbox=\box62
+\extrarowheight=\dimen262
 \NC@list=\toks38
 \extratabsurround=\skip79
 \backup@length=\skip80
-\ar@cellbox=\box62
+\ar@cellbox=\box63
 )
-\TX@col@width=\dimen261
-\TX@old@table=\dimen262
-\TX@old@col=\dimen263
-\TX@target=\dimen264
-\TX@delta=\dimen265
-\TX@cols=\count312
+\TX@col@width=\dimen263
+\TX@old@table=\dimen264
+\TX@old@col=\dimen265
+\TX@target=\dimen266
+\TX@delta=\dimen267
+\TX@cols=\count313
 \TX@ftn=\toks39
 ) (./acmart-taps.sty
-\c@sidebartable=\count313
-\c@figuresidebar=\count314
-\c@floatsidebar=\count315
-)
-(c:/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen266
-\WF@size=\dimen267
-\c@WF@wrappedlines=\count316
-\WF@box=\box63
+\c@sidebartable=\count314
+\c@figuresidebar=\count315
+\c@floatsidebar=\count316
+) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen268
+\WF@size=\dimen269
+\c@WF@wrappedlines=\count317
+\WF@box=\box64
 \WF@everypar=\toks40
 Package: wrapfig 2003/01/31  v 3.6
-)
-(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count317
-\lst@gtempboxa=\box64
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count318
+\lst@gtempboxa=\box65
 \lst@token=\toks41
-\lst@length=\count318
-\lst@currlwidth=\dimen268
-\lst@column=\count319
-\lst@pos=\count320
-\lst@lostspace=\dimen269
-\lst@width=\dimen270
-\lst@newlines=\count321
-\lst@lineno=\count322
-\lst@maxwidth=\dimen271
-
-(c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+\lst@length=\count319
+\lst@currlwidth=\dimen270
+\lst@column=\count320
+\lst@pos=\count321
+\lst@lostspace=\dimen271
+\lst@width=\dimen272
+\lst@newlines=\count322
+\lst@lineno=\count323
+\lst@maxwidth=\dimen273
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count323
-\lst@skipnumbers=\count324
-\lst@framebox=\box65
-)
-(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+\c@lstnumber=\count324
+\lst@skipnumbers=\count325
+\lst@framebox=\box66
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(c:/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
-\FV@CodeLineNo=\count325
+ (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count326
 \FV@InFile=\read3
-\FV@TabBox=\box66
-\c@FancyVerbLine=\count326
-\FV@StepNumber=\count327
+\FV@TabBox=\box67
+\c@FancyVerbLine=\count327
+\FV@StepNumber=\count328
 \FV@OutFile=\write4
 )
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 103
-.
-\c@theorem=\count328
-
-(c:/texlive/2022/texmf-dist/tex/latex/preprint/balance.sty
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 109.
+\c@theorem=\count329
+ (/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen272
-)
-Excluding comment 'screenonly' Include comment 'printonly'
-Include comment 'anonsuppress'
-(c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count329
-\l__pdf_internal_box=\box67
-)
-(./main.aux)
+\oldvsize=\dimen274
+) Excluding comment 'screenonly' Include comment 'printonly' Include comment 'anonsuppress' (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count330
+\l__pdf_internal_box=\box68
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 103.
-LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 103.
- (c:/texlive/2022/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 109.
+LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 103.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-103.
-
-(c:/texlive/2022/texmf-dist/tex/latex/newtx/untxexa.fd
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 109.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 103.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 103.
-
-(c:/texlive/2022/texmf-dist/tex/latex/newtx/lmsntxsy.fd
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 109.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 103.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 103.
-
-(c:/texlive/2022/texmf-dist/tex/latex/newtx/lmxntxexx.fd
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 109.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 103.
-LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
- on input line 103.
-
-(c:/texlive/2022/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
-File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
-LinuxLibertineT-TLF.
+(Font)              scaled to size 7.0pt on input line 109.
+LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
+File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 103.
+(Font)              scaled to size 7.3pt on input line 109.
 <<ot1.cmap>>
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 103.
+(Font)              scaled to size 5.5pt on input line 109.
 <<oml.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 103
-.
- (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 103
-.
-
-(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-103.
-
-(c:/texlive/2022/texmf-dist/tex/latex/newtx/untxmia.fd
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-103.
-
-(c:/texlive/2022/texmf-dist/tex/latex/newtx/untxsym.fd
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-103.
-
-(c:/texlive/2022/texmf-dist/tex/latex/newtx/untxsyc.fd
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 109.
+ (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Info: Redefining \microtypecontext on input line 103.
-Package microtype Info: Applying patch `item' on input line 103.
-Package microtype Info: Applying patch `toc' on input line 103.
-Package microtype Info: Applying patch `eqnum' on input line 103.
-Package microtype Info: Applying patch `footnote' on input line 103.
+LaTeX Info: Command `\dddot' is already robust on input line 109.
+LaTeX Info: Command `\ddddot' is already robust on input line 109.
+LaTeX Info: Redefining \microtypecontext on input line 109.
+Package microtype Info: Applying patch `item' on input line 109.
+Package microtype Info: Applying patch `toc' on input line 109.
+Package microtype Info: Applying patch `eqnum' on input line 109.
+Package microtype Info: Applying patch `footnote' on input line 109.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 103.
+LaTeX Info: Redefining \showhyphens on input line 109.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -921,46 +789,28 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 103.
-
-(c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
-
-(c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count330
-)
-LaTeX Info: Redefining \ref on input line 103.
-LaTeX Info: Redefining \pageref on input line 103.
-LaTeX Info: Redefining \nameref on input line 103.
-
-(./main.out) (./main.out)
+Package hyperref Info: Link coloring OFF on input line 109.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-
-(c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count331
-\scratchdimen=\dimen273
-\scratchbox=\box68
+\scratchdimen=\dimen275
+\scratchbox=\box69
 \nofMPsegments=\count332
 \nofMParguments=\count333
 \everyMPshowfont=\toks42
 \MPscratchCnt=\count334
-\MPscratchDim=\dimen274
+\MPscratchDim=\dimen276
 \MPnumerator=\count335
 \makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks43
-) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -998,9 +848,8 @@ e
 
 \c@mv@tabular=\count337
 \c@mv@boldtabular=\count338
-(c:/texlive/2022/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1010,65 +859,69 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count339
  (./andrew_macros.tex) Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 214.
-LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF o
-n input line 214.
-
-(c:/texlive/2022/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
-File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
-uxBiolinumT-TLF.
+(Font)              scaled to size 17.28pt on input line 220.
+LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 220.
+ (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
+File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 214.
+(Font)              scaled to size 17.28pt on input line 220.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 214.
+(Font)              scaled to size 17.28pt on input line 220.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 214.
+(Font)              scaled to size 12.0pt on input line 220.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 214.
+(Font)              scaled to size 10.0pt on input line 220.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 214.
+(Font)              scaled to size 10.0pt on input line 220.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-(c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<figures/teaser.pdf, id=135, 1027.84pt x 309.155pt>
-File: figures/teaser.pdf Graphic file (type pdf)
-<use figures/teaser.pdf>
-Package pdftex.def Info: figures/teaser.pdf  used on input line 214.
+<fig/teaser.pdf, id=11, 1027.84pt x 309.155pt>
+File: fig/teaser.pdf Graphic file (type pdf)
+<use fig/teaser.pdf>
+Package pdftex.def Info: fig/teaser.pdf  used on input line 220.
 (pdftex.def)             Requested size: 506.295pt x 152.2845pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 214.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 214.
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF
- on input line 214.
+(Font)              scaled to size 9.0pt on input line 220.
 
-(c:/texlive/2022/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
-File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
-LinuxLibertineT-TLF.
+
+Package natbib Warning: Citation `ref:hohman2019gamut' on page 1 undefined on input line 220.
+
+
+Package natbib Warning: Citation `ref:murad2020navierstokes' on page 1 undefined on input line 220.
+
+
+Package natbib Warning: Citation `ref:hohman2019gamut' on page 1 undefined on input line 220.
+
+
+Package natbib Warning: Citation `ref:murad2020navierstokes' on page 1 undefined on input line 220.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 220.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 220.
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 214.
+(Font)              scaled to size 7.0pt on input line 220.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 214.
-
-(./00-abstract.tex
+(Font)              scaled to size 10.95pt on input line 220.
+ (./00-abstract.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
@@ -1077,622 +930,539 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 7.3pt on input line 2.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 214.
+(Font)              scaled to size 9.0pt on input line 220.
 
-Overfull \hbox (2.68475pt too wide) in paragraph at lines 214--214
-\TS1/LinuxLibertineT-TLF/m/n/9 (-20) ˆ \T1/LinuxLibertineT-TLF/b/n/9 (-20) Huma
-n-centered com-put-ing $\LMS/ntxsy/m/n/9 !$ \T1/LinuxLibertineT-TLF/b/n/9 (-20)
- In-ter-ac-tive sys-tems and tools\T1/LinuxLibertineT-TLF/m/n/9 (-20) . 
+Overfull \hbox (2.68475pt too wide) in paragraph at lines 220--220
+\TS1/LinuxLibertineT-TLF/m/n/9 (-20) ˆ \T1/LinuxLibertineT-TLF/b/n/9 (-20) Human-centered com-put-ing $\LMS/ntxsy/m/n/9 !$ \T1/LinuxLibertineT-TLF/b/n/9 (-20) In-ter-ac-tive sys-tems and tools\T1/LinuxLibertineT-TLF/m/n/9 (-20) . 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\kernel@ifnextchar' on input line 214.
+(hyperref)                removing `\kernel@ifnextchar' on input line 220.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 214.
+(Font)              scaled to size 8.0pt on input line 220.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 214.
+(Font)              scaled to size 8.0pt on input line 220.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 214.
+(Font)              scaled to size 8.0pt on input line 220.
+
+LaTeX Warning: Reference `TotPages' on page 1 undefined on input line 220.
+
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 214.
+(Font)              scaled to size 8.0pt on input line 220.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 214.
+(Font)              scaled to size 6.2pt on input line 220.
+[1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-Underfull \vbox (badness 4531) has occurred while \output is active []
+ <./fig/teaser.pdf>] (./01-intro.tex
 
- [1.1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Package natbib Warning: Citation `ref:mysore2023how' on page 2 undefined on input line 3.
 
- <./figures/teaser.pdf>] (./01-intro.tex
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 32.
+Package natbib Warning: Citation `ref:cai2019software' on page 2 undefined on input line 3.
 
-<figures/pre-aug-intro.pdf, id=246, 227.3805pt x 21.61977pt>
-File: figures/pre-aug-intro.pdf Graphic file (type pdf)
-<use figures/pre-aug-intro.pdf>
-Package pdftex.def Info: figures/pre-aug-intro.pdf  used on input line 33.
+
+Package natbib Warning: Citation `ref:hohman2019gamut' on page 2 undefined on input line 4.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 9.
+
+<fig/pre-aug-intro.pdf, id=111, 227.3805pt x 21.61977pt>
+File: fig/pre-aug-intro.pdf Graphic file (type pdf)
+<use fig/pre-aug-intro.pdf>
+Package pdftex.def Info: fig/pre-aug-intro.pdf  used on input line 10.
 (pdftex.def)             Requested size: 149.51025pt x 14.21596pt.
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 35.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 12.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 43.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 20.
 
-<figures/aug-intro.pdf, id=247, 235.20773pt x 109.21703pt>
-File: figures/aug-intro.pdf Graphic file (type pdf)
-<use figures/aug-intro.pdf>
-Package pdftex.def Info: figures/aug-intro.pdf  used on input line 44.
+<fig/aug-intro.pdf, id=112, 235.20773pt x 109.21703pt>
+File: fig/aug-intro.pdf Graphic file (type pdf)
+<use fig/aug-intro.pdf>
+Package pdftex.def Info: fig/aug-intro.pdf  used on input line 21.
 (pdftex.def)             Requested size: 156.74438pt x 72.78337pt.
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 46.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 23.
+
+
+Package natbib Warning: Citation `ref:head2022math' on page 2 undefined on input line 30.
+
+
+Package natbib Warning: Citation `ref:blackwell2003notational' on page 2 undefined on input line 45.
 
 ) (./02-relatedwork.tex
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 22
-.
 
-(c:/texlive/2022/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+Package natbib Warning: Citation `ref:adams2003reading' on page 2 undefined on input line 9.
+
+
+Package natbib Warning: Citation `ref:marghetis2016mastering' on page 2 undefined on input line 9.
+
+
+Package natbib Warning: Citation `ref:shepherd2014reading' on page 2 undefined on input line 9.
+
+
+Package natbib Warning: Citation `ref:cai2019software' on page 2 undefined on input line 9.
+
+
+Package natbib Warning: Citation `ref:mysore2023how' on page 2 undefined on input line 9.
+
+
+Package natbib Warning: Citation `ref:yung2015effects' on page 2 undefined on input line 11.
+
+
+Package natbib Warning: Citation `ref:goldstone2017adapting' on page 2 undefined on input line 11.
+
+
+Package natbib Warning: Citation `ref:harrison2020spacing' on page 2 undefined on input line 11.
+
+
+Package natbib Warning: Citation `ref:dragunov2003designing' on page 2 undefined on input line 11.
+
+
+Package natbib Warning: Citation `ref:head2022math' on page 2 undefined on input line 11.
+
+
+Package natbib Warning: Citation `ref:hohman2020awesome' on page 2 undefined on input line 11.
+
+
+Package natbib Warning: Citation `ref:knuth1986tex' on page 2 undefined on input line 20.
+
+
+Package natbib Warning: Citation `tool:latex' on page 2 undefined on input line 20.
+
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 20.
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 22.
+(Font)              scaled to size 9.0pt on input line 20.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (5.80533pt too wide) in paragraph at lines 22--23
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) with macros from the \T1/zi4/m/n/9 mathtool
-s \T1/LinuxLibertineT-TLF/m/n/9 (-20) [[]] and \T1/zi4/m/n/9 annotate-equations
- \T1/LinuxLibertineT-TLF/m/n/9 (-20) [[]]
- []
+
+Package natbib Warning: Citation `tool:carlisle1997color' on page 2 undefined on input line 20.
+
+
+Package natbib Warning: Citation `tool:madsen2014mathtools' on page 2 undefined on input line 20.
+
+
+Package natbib Warning: Citation `tool:annotateequations' on page 2 undefined on input line 20.
+
+
+Package natbib Warning: Citation `ref:head2022math' on page 2 undefined on input line 20.
+
+
+Package natbib Warning: Citation `tool:katex' on page 2 undefined on input line 22.
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 25.
+(Font)              scaled to size 9.0pt on input line 23.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 25.
-[2.2 <./figures/pre-aug-intro.pdf> <./figures/aug-intro.pdf>]) (./03-system.tex
+(Font)              scaled to size 7.0pt on input line 23.
+[2.2 <./fig/pre-aug-intro.pdf> <./fig/aug-intro.pdf>]
+
+Package natbib Warning: Citation `ref:crichton2021new' on page 3 undefined on input line 24.
+
+
+Package natbib Warning: Citation `ref:li2022heartdown' on page 3 undefined on input line 24.
+
+
+Package natbib Warning: Citation `tool:curvenote' on page 3 undefined on input line 24.
+
+
+Package natbib Warning: Citation `tool:manim' on page 3 undefined on input line 24.
+
+
+Package natbib Warning: Citation `ref:head2022math' on page 3 undefined on input line 24.
+
+
+Package natbib Warning: Citation `ref:misfeldt2011computers' on page 3 undefined on input line 26.
+
+
+Package natbib Warning: Citation `ref:knauff2014efficiency' on page 3 undefined on input line 27.
+
+
+Package natbib Warning: Citation `ref:matthews2019craft' on page 3 undefined on input line 27.
+
+
+Package natbib Warning: Citation `tool:wordformulaeditor' on page 3 undefined on input line 31.
+
+
+Package natbib Warning: Citation `ref:topping1999using' on page 3 undefined on input line 31.
+
+
+Package natbib Warning: Citation `tool:googleslides' on page 3 undefined on input line 35.
+
+
+Package natbib Warning: Citation `tool:inkscape' on page 3 undefined on input line 35.
+
+
+Package natbib Warning: Citation `tool:mathcha' on page 3 undefined on input line 35.
+
+
+Package natbib Warning: Citation `tool:powerpoint' on page 3 undefined on input line 35.
+
+
+Package natbib Warning: Citation `tool:codecogs' on page 3 undefined on input line 35.
+
+
+Package natbib Warning: Citation `ref:laviola2006mathpad2' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:zeleznik2010hands' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:leitner2010nice' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:saquib2021constructing' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:laviola2006mathpad2' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:saquib2021constructing' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:zeleznik2010hands' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:weitnauer2016graspable' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:mendes2014structure' on page 3 undefined on input line 38.
+
+
+Package natbib Warning: Citation `ref:head2021augmenting' on page 3 undefined on input line 41.
+
+
+Package natbib Warning: Citation `ref:anthony2005evaluation' on page 3 undefined on input line 41.
+
+
+Package natbib Warning: Citation `ref:ma2021latexify' on page 3 undefined on input line 41.
+
+
+Underfull \vbox (badness 2073) has occurred while \output is active []
+
+
+
+Package natbib Warning: Citation `ref:toomim2004managing' on page 3 undefined on input line 47.
+
+
+Package natbib Warning: Citation `ref:miltner2019fly' on page 3 undefined on input line 47.
+
+
+Package natbib Warning: Citation `ref:ni2021recode' on page 3 undefined on input line 47.
+
+
+Package natbib Warning: Citation `ref:han2020textlets' on page 3 undefined on input line 47.
+
+
+Package natbib Warning: Citation `ref:ye2020penrose' on page 3 undefined on input line 50.
+
+
+Package natbib Warning: Citation `ref:pollock2022bluefish' on page 3 undefined on input line 50.
+
+
+Package natbib Warning: Citation `ref:tanimoto1990viva' on page 3 undefined on input line 53.
+
+
+Package natbib Warning: Citation `ref:rein2018exploratory' on page 3 undefined on input line 53.
+
+
+Package natbib Warning: Citation `ref:gobert2022ilatex' on page 3 undefined on input line 53.
+
+
+Package natbib Warning: Citation `ref:dragicevic2011gliimpse' on page 3 undefined on input line 53.
+
+) (./03-system.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 12.
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
+(Font)              scaled to size 5.5pt on input line 5.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 5.
 
 
+Package natbib Warning: Citation `ref:hohman2019gamut' on page 3 undefined on input line 5.
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=434, page=1, 404.47108pt x 243.91125pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 1>
-Package pdftex.def Info: figures/Demo.pdf , page1 used on input line 15.
+
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 8.
+
+[3.3]
+
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=241, page=1, 404.47108pt x 243.91125pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 1>
+Package pdftex.def Info: fig/Demo.pdf , page1 used on input line 12.
 (pdftex.def)             Requested size: 229.08937pt x 138.14879pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3.3]
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-
-
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=480, page=2, 404.47713pt x 50.589pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 2>
-Package pdftex.def Info: figures/Demo.pdf , page2 used on input line 23.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=242, page=2, 404.47713pt x 50.589pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 2>
+Package pdftex.def Info: fig/Demo.pdf , page2 used on input line 18.
 (pdftex.def)             Requested size: 229.08937pt x 28.65308pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=481, page=3, 404.47108pt x 252.945pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 3>
-Package pdftex.def Info: figures/Demo.pdf , page3 used on input line 26.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=243, page=3, 404.47108pt x 252.945pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 3>
+Package pdftex.def Info: fig/Demo.pdf , page3 used on input line 21.
 (pdftex.def)             Requested size: 229.08937pt x 143.26541pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=482, page=4, 404.47108pt x 56.00925pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 4>
-Package pdftex.def Info: figures/Demo.pdf , page4 used on input line 32.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=244, page=4, 404.47108pt x 56.00925pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 4>
+Package pdftex.def Info: fig/Demo.pdf , page4 used on input line 26.
 (pdftex.def)             Requested size: 229.08937pt x 31.72304pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
- []
-
-
-
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=483, page=5, 404.47108pt x 255.8358pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 5>
-Package pdftex.def Info: figures/Demo.pdf , page5 used on input line 34.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=245, page=5, 404.47108pt x 255.8358pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 5>
+Package pdftex.def Info: fig/Demo.pdf , page5 used on input line 27.
 (pdftex.def)             Requested size: 229.08937pt x 144.90273pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
- []
-
-
-
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=484, page=6, 404.47108pt x 54.2025pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 6>
-Package pdftex.def Info: figures/Demo.pdf , page6 used on input line 41.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=246, page=6, 404.47108pt x 54.2025pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 6>
+Package pdftex.def Info: fig/Demo.pdf , page6 used on input line 33.
 (pdftex.def)             Requested size: 229.08937pt x 30.69972pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=485, page=7, 404.47108pt x 252.945pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 7>
-Package pdftex.def Info: figures/Demo.pdf , page7 used on input line 41.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=247, page=7, 404.47108pt x 252.945pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 7>
+Package pdftex.def Info: fig/Demo.pdf , page7 used on input line 33.
 (pdftex.def)             Requested size: 229.08937pt x 143.26541pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
- []
-
-
-
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=486, page=8, 404.47108pt x 54.2025pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 8>
-Package pdftex.def Info: figures/Demo.pdf , page8 used on input line 48.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=248, page=8, 404.47108pt x 54.2025pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 8>
+Package pdftex.def Info: fig/Demo.pdf , page8 used on input line 39.
 (pdftex.def)             Requested size: 229.08937pt x 30.69972pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=487, page=9, 404.47108pt x 252.945pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 9>
-Package pdftex.def Info: figures/Demo.pdf , page9 used on input line 48.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=249, page=9, 404.47108pt x 252.945pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 9>
+Package pdftex.def Info: fig/Demo.pdf , page9 used on input line 39.
 (pdftex.def)             Requested size: 229.08937pt x 143.26541pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=488, page=10, 404.47108pt x 84.91725pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 10>
-Package pdftex.def Info: figures/Demo.pdf , page10 used on input line 53.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=250, page=10, 404.47108pt x 84.91725pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 10>
+Package pdftex.def Info: fig/Demo.pdf , page10 used on input line 44.
 (pdftex.def)             Requested size: 229.08937pt x 48.09624pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=489, page=11, 404.47108pt x 255.8358pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 11>
-Package pdftex.def Info: figures/Demo.pdf , page11 used on input line 53.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=251, page=11, 404.47108pt x 255.8358pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 11>
+Package pdftex.def Info: fig/Demo.pdf , page11 used on input line 44.
 (pdftex.def)             Requested size: 229.08937pt x 144.90273pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4.4 <./figures/Demo.pdf> <./figures/Demo.pdf> <./figures/Demo.pdf> <./figures
-/Demo.pdf> <./figures/Demo.pdf> <./figures/Demo.pdf> <./figures/Demo.pdf> <./fi
-gures/Demo.pdf> <./figures/Demo.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+ [4.4 <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf>]
 
- []
-
-
-
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=647, page=12, 404.47108pt x 99.7326pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 12>
-Package pdftex.def Info: figures/Demo.pdf , page12 used on input line 58.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=409, page=12, 404.47108pt x 99.7326pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 12>
+Package pdftex.def Info: fig/Demo.pdf , page12 used on input line 48.
 (pdftex.def)             Requested size: 229.08937pt x 56.48749pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=648, page=13, 404.47108pt x 254.3904pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 13>
-Package pdftex.def Info: figures/Demo.pdf , page13 used on input line 58.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=410, page=13, 404.47108pt x 254.3904pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 13>
+Package pdftex.def Info: fig/Demo.pdf , page13 used on input line 48.
 (pdftex.def)             Requested size: 229.08937pt x 144.08406pt.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 64.
+(Font)              scaled to size 9.0pt on input line 53.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=649, page=14, 404.47412pt x 50.589pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 14>
-Package pdftex.def Info: figures/Demo.pdf , page14 used on input line 68.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=411, page=14, 404.47412pt x 50.589pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 14>
+Package pdftex.def Info: fig/Demo.pdf , page14 used on input line 57.
 (pdftex.def)             Requested size: 229.08937pt x 28.65308pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=650, page=15, 404.47108pt x 90.3375pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 15>
-Package pdftex.def Info: figures/Demo.pdf , page15 used on input line 68.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=412, page=15, 404.47108pt x 90.3375pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 15>
+Package pdftex.def Info: fig/Demo.pdf , page15 used on input line 57.
 (pdftex.def)             Requested size: 229.08937pt x 51.1662pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=651, page=16, 404.47108pt x 164.41425pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 16>
-Package pdftex.def Info: figures/Demo.pdf , page16 used on input line 74.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=413, page=16, 404.47108pt x 164.41425pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 16>
+Package pdftex.def Info: fig/Demo.pdf , page16 used on input line 61.
 (pdftex.def)             Requested size: 229.08937pt x 93.12251pt.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/Demo.pdf): PDF inclusion: found PD
-F version <1.6>, but at most version <1.5> allowed
-<figures/Demo.pdf, id=652, page=17, 404.47108pt x 169.8345pt>
-File: figures/Demo.pdf Graphic file (type pdf)
-<use figures/Demo.pdf, page 17>
-Package pdftex.def Info: figures/Demo.pdf , page17 used on input line 74.
+pdfTeX warning: pdflatex (file ./fig/Demo.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Demo.pdf, id=414, page=17, 404.47108pt x 169.8345pt>
+File: fig/Demo.pdf Graphic file (type pdf)
+<use fig/Demo.pdf, page 17>
+Package pdftex.def Info: fig/Demo.pdf , page17 used on input line 61.
 (pdftex.def)             Requested size: 229.08937pt x 96.19249pt.
 
-Overfull \hbox (3.13446pt too wide) in paragraph at lines 110--115
-[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) Authors should be sup-ported to ex-per-i-
-ment with cross-cutting
+Package natbib Warning: Citation `ref:head2022math' on page 5 undefined on input line 72.
+
+
+Overfull \hbox (3.13446pt too wide) in paragraph at lines 78--83
+[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) Authors should be sup-ported to ex-per-i-ment with cross-cutting
  []
 
-[5.5 <./figures/Demo.pdf> <./figures/Demo.pdf> <./figures/Demo.pdf> <./figures/
-Demo.pdf> <./figures/Demo.pdf> <./figures/Demo.pdf> <./figures/Demo.pdf> <./fig
-ures/Demo.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./figures/Language.pdf): PDF inclusion: foun
-d PDF version <1.6>, but at most version <1.5> allowed
-<figures/Language.pdf, id=793, 551.05875pt x 207.77625pt>
-File: figures/Language.pdf Graphic file (type pdf)
-<use figures/Language.pdf>
-Package pdftex.def Info: figures/Language.pdf  used on input line 131.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5.5 <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf> <./fig/Demo.pdf>]
+
+pdfTeX warning: pdflatex (file ./fig/Language.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/Language.pdf, id=554, 551.05875pt x 207.77625pt>
+File: fig/Language.pdf Graphic file (type pdf)
+<use fig/Language.pdf>
+Package pdftex.def Info: fig/Language.pdf  used on input line 99.
 (pdftex.def)             Requested size: 480.9787pt x 181.3599pt.
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 141.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 109.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 141.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 109.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 142.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 110.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 190.
+LaTeX Warning: Reference `fig:language_examples' on page 6 undefined on input line 120.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 190.
+Package natbib Warning: Citation `UnixMan' on page 6 undefined on input line 127.
 
 
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 190.
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 145.
 
 
-Underfull \hbox (badness 10000) in alignment at lines 190--190
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 145.
+
+
+Class acmart Warning: \vspace should only be used to provide space above/below surrounding objects on input line 145.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 145--145
 [][] 
  []
 
 
-Overfull \hbox (2.3213pt too wide) in paragraph at lines 193--194
-[] []\T1/LinuxLibertineT-TLF/m/it/9 (-20) Expression classes.[] \T1/LinuxLibert
-ineT-TLF/m/n/9 (-20) FFL
+Overfull \hbox (2.3213pt too wide) in paragraph at lines 148--149
+[] []\T1/LinuxLibertineT-TLF/m/it/9 (-20) Expression classes.[] \T1/LinuxLibertineT-TLF/m/n/9 (-20) FFL
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 193--194
+Underfull \hbox (badness 1496) in paragraph at lines 148--149
 \T1/LinuxLibertineT-TLF/m/n/9 (+20) mon cat-e-gories of ex-
  []
 
 
-Underfull \vbox (badness 7397) has occurred while \output is active []
-
-
-
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
-(Font)              using `T1/zi4/m/n' instead on input line 203.
+(Font)              using `T1/zi4/m/n' instead on input line 153.
 
 LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
-(Font)              scaled to size 9.0pt on input line 203.
+(Font)              scaled to size 9.0pt on input line 153.
+
+Package natbib Warning: Citation `ref:head2022math' on page 6 undefined on input line 159.
+
+
+Package natbib Warning: Citation `ref:head2022math' on page 6 undefined on input line 159.
+
+
+LaTeX Warning: Reference `sec:overlays' on page 6 undefined on input line 163.
+
 [6.6]
+
+Package natbib Warning: Citation `tool:katex' on page 7 undefined on input line 176.
+
+
+Package natbib Warning: Citation `jupyterlab-katex' on page 7 undefined on input line 176.
+
+
+Package natbib Warning: Citation `MarkdownIt' on page 7 undefined on input line 190.
+
+
 Underfull \vbox (badness 2285) has occurred while \output is active []
 
-)
-(./03b-implementation.tex
+) (./03b-implementation.tex
+
+LaTeX Warning: Reference `fig:dataflow' on page 7 undefined on input line 3.
+
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 7.0pt on input line 3.
 
 
-pdfTeX warning: pdflatex.exe (file ./figures/dataflow.pdf): PDF inclusion: foun
-d PDF version <1.6>, but at most version <1.5> allowed
-<figures/dataflow.pdf, id=826, 352.31625pt x 478.78876pt>
-File: figures/dataflow.pdf Graphic file (type pdf)
-<use figures/dataflow.pdf>
-Package pdftex.def Info: figures/dataflow.pdf  used on input line 9.
+pdfTeX warning: pdflatex (file ./fig/dataflow.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<fig/dataflow.pdf, id=577, 352.31625pt x 478.78876pt>
+File: fig/dataflow.pdf Graphic file (type pdf)
+<use fig/dataflow.pdf>
+Package pdftex.def Info: fig/dataflow.pdf  used on input line 7.
 (pdftex.def)             Requested size: 207.38698pt x 281.8327pt.
+
+Package natbib Warning: Citation `tool:katex' on page 7 undefined on input line 8.
+
+
+Package natbib Warning: Citation `tool:katex' on page 7 undefined on input line 8.
+
+
+Package natbib Warning: Citation `Peggy' on page 7 undefined on input line 14.
+
 
 Underfull \vbox (badness 1436) has occurred while \output is active []
 
- [7.7 <./figures/Language.pdf, page is rotated 270 degrees>]
+ [7.7 <./fig/Language.pdf, page is rotated 270 degrees>]
 Underfull \vbox (badness 1215) has occurred while \output is active []
 
- [8.8 <./figures/dataflow.pdf>]) (./04-studydesign.tex
-Underfull \vbox (badness 1173) has occurred while \output is active []
-
- [9.9])
-(./05-results.tex
-Underfull \vbox (badness 1137) has occurred while \output is active []
 
 
-Overfull \hbox (4.05083pt too wide) in paragraph at lines 10--11
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) Overall, there was sig-nif-i-cant im-prove-
-ment in task time, self-reported
- []
-
-<figures/Timing.pdf, id=1025, 475.7775pt x 299.1175pt>
-File: figures/Timing.pdf Graphic file (type pdf)
-<use figures/Timing.pdf>
-Package pdftex.def Info: figures/Timing.pdf  used on input line 44.
-(pdftex.def)             Requested size: 241.14749pt x 151.60768pt.
-[10.10 <./figures/Timing.pdf>]
-<figures/Responses.pdf, id=1073, 441.65pt x 255.95625pt>
-File: figures/Responses.pdf Graphic file (type pdf)
-<use figures/Responses.pdf>
-Package pdftex.def Info: figures/Responses.pdf  used on input line 73.
-(pdftex.def)             Requested size: 241.14749pt x 139.757pt.
-<figures/EOS-1.pdf, id=1081, 472.76625pt x 266.9975pt>
-File: figures/EOS-1.pdf Graphic file (type pdf)
-<use figures/EOS-1.pdf>
-Package pdftex.def Info: figures/EOS-1.pdf  used on input line 90.
-(pdftex.def)             Requested size: 241.14749pt x 136.19135pt.
-<figures/Useful.pdf, id=1085, 526.96875pt x 277.035pt>
-File: figures/Useful.pdf Graphic file (type pdf)
-<use figures/Useful.pdf>
-Package pdftex.def Info: figures/Useful.pdf  used on input line 146.
-(pdftex.def)             Requested size: 241.14749pt x 126.77397pt.
- [11.11 <./figures/Responses.pdf> <./figures/EOS-1.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures/EOS-1.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
->] [12.12 <./figures/Useful.pdf>]) (./06-discussion.tex [13.13]
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 60.
-
-) (./07-conclusion.tex) Processing 'acks' comment.
-\openout3 = `comment.cut'.
+Package natbib Warning: Citation `tool:svg' on page 8 undefined on input line 28.
 
 
-Comment 'acks' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./08-acknowledgments.tex)) (./main.bbl
-LaTeX Font Info:    Font shape `T1/zi4/m/it' will be
-(Font)              scaled to size 7.0pt on input line 229.
-LaTeX Info: Redefining \tempurl on input line 291.
-LaTeX Info: Redefining \tempurl on input line 324.
-LaTeX Info: Redefining \tempurl on input line 338.
-
-Underfull \vbox (badness 4518) has occurred while \output is active []
-
- [14.14]
-LaTeX Info: Redefining \tempurl on input line 348.
-LaTeX Info: Redefining \tempurl on input line 398.
-LaTeX Info: Redefining \tempurl on input line 452.
-LaTeX Info: Redefining \tempurl on input line 469.
-LaTeX Info: Redefining \tempurl on input line 482.
-LaTeX Info: Redefining \tempurl on input line 499.
-LaTeX Info: Redefining \tempurl on input line 510.
-LaTeX Info: Redefining \tempurl on input line 522.
-LaTeX Info: Redefining \tempurl on input line 562.
-LaTeX Info: Redefining \tempurl on input line 576.
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--579
-[]\T1/LinuxLibertineT-TLF/m/n/7 (+20) Bell Labs. 1971.  Unix Pro-gram-mer's Man
--ual.  https://www.bell-
- []
+Package natbib Warning: Citation `tool:labella' on page 8 undefined on input line 28.
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 569--579
-\T1/LinuxLibertineT-TLF/m/n/7 (+20) labs.com/usr/dmr/www/1stEdman.html.   []$ht
-tps :// www . bell -[] labs . com / usr /
- []
+Package natbib Warning: Citation `tool:mathml' on page 8 undefined on input line 37.
 
-LaTeX Info: Redefining \tempurl on input line 636.
-LaTeX Info: Redefining \tempurl on input line 680.
+[8.8 <./fig/dataflow.pdf>]
 
-Underfull \hbox (badness 5105) in paragraph at lines 675--683
-[]\T1/LinuxLibertineT-TLF/m/n/7 (+20) Hildebrand et Al. (Open Source Con-trib-u
--tors) Ma-jda. 2022.  Peggy.
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \tempurl on input line 704.
-LaTeX Info: Redefining \tempurl on input line 738.
-
-Underfull \hbox (badness 3068) in paragraph at lines 734--741
-[]\T1/LinuxLibertineT-TLF/m/n/7 (+20) Microsoft.  \T1/LinuxLibertineT-TLF/m/it/
-7 (+20) Write an equa-tion or for-mula\T1/LinuxLibertineT-TLF/m/n/7 (+20) .   R
-e-trieved July 7, 2023
- []
-
-LaTeX Info: Redefining \tempurl on input line 749.
-LaTeX Info: Redefining \tempurl on input line 857.
-LaTeX Info: Redefining \tempurl on input line 870.
-LaTeX Info: Redefining \tempurl on input line 897.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 5.5pt on input line 938.
-LaTeX Info: Redefining \tempurl on input line 941.
-LaTeX Info: Redefining \tempurl on input line 974.
-LaTeX Info: Redefining \tempurl on input line 1008.
-[15.15]) (./09-appendix.tex
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 37.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 37.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (1.56139pt too wide) in paragraph at lines 69--69
-[]|\T1/LinuxLibertineT-TLF/m/n/9 (-20) Time| 
- []
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 69.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 69.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (3.3455pt too wide) in paragraph at lines 74--75
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) par-tic-i-pants on a Lik-ert scale of 1--7,
- where 1 cor-re-sponds to ``strongly
- []
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 104.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 104.
-See the caption package documentation for explanation.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 135.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 135.
-See the caption package documentation for explanation.
-
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 164.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 164.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
-
- []
-
-<figures/o-2595.pdf, id=1363, 422.30122pt x 296.39754pt>
-File: figures/o-2595.pdf Graphic file (type pdf)
-<use figures/o-2595.pdf>
-Package pdftex.def Info: figures/o-2595.pdf  used on input line 170.
-(pdftex.def)             Requested size: 207.38698pt x 145.55716pt.
-<figures/o-3382.pdf, id=1364, 420.94594pt x 296.20554pt>
-File: figures/o-3382.pdf Graphic file (type pdf)
-<use figures/o-3382.pdf>
-Package pdftex.def Info: figures/o-3382.pdf  used on input line 176.
-(pdftex.def)             Requested size: 207.38698pt x 145.93292pt.
-<figures/o-3297.pdf, id=1365, 421.24648pt x 312.7693pt>
-File: figures/o-3297.pdf Graphic file (type pdf)
-<use figures/o-3297.pdf>
-Package pdftex.def Info: figures/o-3297.pdf  used on input line 184.
-(pdftex.def)             Requested size: 207.38698pt x 153.9837pt.
-)
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 235.
-
-(c:/texlive/2022/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-)
-(c:/texlive/2022/texmf-dist/tex/generic/stringenc/se-utf8.def
-File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-)
-
-Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 236.
-
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-[16.16 <./figures/o-2595.pdf> <./figures/o-3382.pdf> <./figures/o-3297.pdf>]
-(./main.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B125BD68F03056AAED32703F40081581;4870.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 176 ({)
-### bottom level 
-Here is how much of TeX's memory you used:
- 24534 strings out of 478268
- 403098 string characters out of 5850345
- 793223 words of memory out of 5000000
- 41265 multiletter control sequences out of 15000+600000
- 665309 words of font info for 509 fonts, out of 8000000 for 9000
- 1302 hyphenation exceptions out of 8191
- 84i,13n,131p,1281b,742s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tc
-sq.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{c:/
-texlive/2022/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/texlive/2
-022/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{c:/texlive/2022/texmf
--dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{c:/texlive/2022/texmf-dist/fon
-ts/enc/dvips/libertine/lbtn_nh77jq.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dv
-ips/libertine/lbtn_76gpa5.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/in
-consolata/Inconsolata-zi4r.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/n
-ewtx/LibertineMathMI.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/newtx/L
-ibertineMathMI7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/Li
-nBiolinumT.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinBiol
-inumTB.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinBiolinum
-TI.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinLibertineT.p
-fb><c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb>
-<c:/texlive/2022/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb><c:
-/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><c:/texlive/2022/
-texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2022/texmf-dist/font
-s/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (16 pages, 1412437 bytes).
-PDF statistics:
- 1713 PDF objects out of 1728 (max. 8388607)
- 1093 compressed objects within 11 object streams
- 207 named destinations out of 1000 (max. 500000)
- 103834 words of extra memory for PDF output out of 106986 (max. 10000000)
-
+La

@@ -4,7 +4,7 @@ The FFL runtime required an implementation that would translate specifications o
 
 \begin{figure}
     \centering
-    \includegraphics[width=.86\columnwidth]{figures/dataflow} 
+    \includegraphics[width=.86\columnwidth]{fig/dataflow} 
     \caption{The generation of an augmented formula from LaTeX and an FFL style specification. \normalfont FFL wraps the  KaTeX library~\cite{tool:katex}, shimming itself into KaTeX's token parsing to detect and annotate expressions of interest. KaTeX generates an annotated HTML formula, which can be styled with CSS that FFL generates from its specification. FFL augments the generated HTML with labels by post-processing the generated HTML.}
     \Description{A decorative flowchart demonstrating how augmented formulas are generated from the LaTeX for a formula and an FFL style specification. The LaTeX math code and FFL style specification are passed into FFL, which then generates CSS from the FFL style specification and passes the LaTeX code to KaTeX, which FFL wraps. KaTeX tokenizes the LaTeX code and lets FFL insert marker tokens to indicate ranges where styles apply, linking the markers to generated CSS classes. KaTeX renders the token stream into HTML. FFL processes the HTML to add label elements. The HTML and CSS are rendered together as an augmented formula by the browser.}
     \label{fig:dataflow}
